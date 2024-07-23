@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    margin: 20px;
+    padding: 20px;
+}
+
+.class img {
+    padding-left: 80px;
+}
+
+.class h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Times New Roman';
+    font-weight: 100;
+    font-size: 80px;
+    border-bottom: 2px solid black;
+    color: #34b341;
+}
+
+main {
+    margin-top: 40px;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    padding: 50px;
+    max-width: 88%;
+}
+
+section:hover {
+    background-color: rgb(229, 229, 223);
+    border-radius: 10px;
+}
+
+section h1 {
+    margin: 4px;
+    padding-bottom: 4px;
+    color: #4CAF50;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 60px;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid green;
+}
+
+.title {
+    position: relative;
+}
+
+.title:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #2c8234;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.title:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+section p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    line-height: 3rem;
+}
+
+ul li strong {
+    color: #4CAF50;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+}

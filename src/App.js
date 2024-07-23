@@ -4,12 +4,12 @@ import Home from './Home';
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
 import Toggle from './components/Toggle';
-import './01_styles.css';
 import About from './About';
 import Contact from './Contact';
 import Destination from './Destination';
 import Profile from './Profile';
 import Tips from './Tips';
+import './01_styles.css';
 
 const App = () => {
     const [isActive, setIsActive] = useState(false);
@@ -37,7 +37,6 @@ const App = () => {
                 } />
                 <Route path="/signin" element={
                     <div className={`container ${isActive ? 'active' : ''}`}>
-                        <SignUp />
                         <SignIn />
                         <Toggle onToggle={toggleActive} />
                     </div>
