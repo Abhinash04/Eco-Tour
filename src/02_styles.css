@@ -4,23 +4,23 @@
     box-sizing: border-box;
 }
 
-body {
+.ab-body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
 }
 
-header {
+.ab-header {
     margin: 20px;
     padding: 20px;
 }
 
-.class img {
+.ab-class img {
     padding-left: 80px;
 }
 
-.class h1 {
+.ab-class h1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,24 +33,34 @@ header {
     color: #34b341;
 }
 
-main {
+.ab-main {
     margin-top: 40px;
     padding: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
-section {
-    margin-bottom: 2rem;
-    margin-left: 2rem;
+.ab-card {
     padding: 50px;
     max-width: 88%;
-}
-
-section:hover {
-    background-color: rgb(229, 229, 223);
+    background-color: white;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: ab-slide-in 0.5s ease-out;
 }
 
-section h1 {
+@keyframes ab-slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ab-section h1 {
     margin: 4px;
     padding-bottom: 4px;
     color: #4CAF50;
@@ -64,11 +74,11 @@ section h1 {
     border-bottom: 1px solid green;
 }
 
-.title {
+.ab-title {
     position: relative;
 }
 
-.title:after {
+.ab-title:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -81,35 +91,32 @@ section h1 {
     transition: transform 0.25s ease-out;
 }
 
-.title:hover:after {
+.ab-title:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
 
-section p {
+.ab-section p, .ab-section ul {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
 }
 
-ul {
+.ab-section ul {
     list-style: none;
     padding-left: 0;
 }
 
-ul li {
+.ab-section ul li {
     margin-bottom: 0.5rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
     line-height: 3rem;
 }
 
-ul li strong {
+.ab-section ul li strong {
     color: #4CAF50;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
 }
 
-footer {
+.ab-footer {
     background: #333;
     color: #fff;
     text-align: center;
@@ -119,8 +126,29 @@ footer {
     bottom: 0;
 }
 
+.ab-navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ab-navigation-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ab-navigation-buttons button:hover {
+    background-color: #45a049;
+}
+
 @media (max-width: 768px) {
-    main {
+    .ab-main {
         padding: 1rem;
     }
 }

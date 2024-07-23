@@ -1,4 +1,5 @@
 import React from 'react';
+import './01_styles.css';
 
 const Toggle = ({ onToggle }) => {
     return (

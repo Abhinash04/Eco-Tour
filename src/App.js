@@ -9,7 +9,7 @@ import Contact from './Contact';
 import Destination from './Destination';
 import Profile from './Profile';
 import Tips from './Tips';
-import './01_styles.css';
+import Review from './Review';
 
 const App = () => {
     const [isActive, setIsActive] = useState(false);
@@ -27,6 +27,7 @@ const App = () => {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/destination" element={<Destination />} />
                 <Route path="/tips" element={<Tips />} />
+                <Route path="/review" element={<Review />} />
                 <Route path="/profile" element={<Profile />} />
                 <Route path="/signup" element={
                     <div className={`container ${isActive ? 'active' : ''}`}>
