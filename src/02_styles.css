@@ -16,11 +16,13 @@ header {
     padding: 20px;
 }
 
-.class img {
+.abclass img {
     padding-left: 80px;
+    max-width: 100%;
+    height: auto;
 }
 
-.class h1 {
+.abclass h1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +30,7 @@ header {
     padding: 20px;
     font-family: 'Times New Roman';
     font-weight: 100;
-    font-size: 80px;
+    font-size: 5vw; /* Adjusts based on viewport width */
     border-bottom: 2px solid black;
     color: #34b341;
 }
@@ -56,7 +58,7 @@ section h1 {
     color: #4CAF50;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 4vw; /* Adjusts based on viewport width */
     margin-bottom: 0.5rem;
     display: flex;
     align-items: center;
@@ -64,11 +66,11 @@ section h1 {
     border-bottom: 1px solid green;
 }
 
-.title {
+.abtitle {
     position: relative;
 }
 
-.title:after {
+.abtitle:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -81,7 +83,7 @@ section h1 {
     transition: transform 0.25s ease-out;
 }
 
-.title:hover:after {
+.abtitle:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
@@ -120,7 +122,25 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .class img {
+        padding-left: 0;
+    }
+
     main {
         padding: 1rem;
+    }
+
+    section {
+        padding: 20px;
+        margin-left: 1rem;
+        max-width: 100%;
+    }
+
+    section h1 {
+        font-size: 6vw;
+    }
+
+    .abclass h1 {
+        font-size: 8vw;
     }
 }
