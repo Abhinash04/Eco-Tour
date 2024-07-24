@@ -1,5 +1,5 @@
 import React from 'react';
-import './03_styles.css';
+import './review.css';
 import 'remixicon/fonts/remixicon.css';
 import testimonial1 from './images/testimonial1.jpg';
 import testimonial2 from './images/testimonial2.jpg';

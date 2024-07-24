@@ -6,8 +6,8 @@
     color: #333;
     line-height: 1.6;
     overflow-y: scroll;
-    scrollbar-color: #004d40 #f0f4f8; /* For modern browsers */
-    scrollbar-width: thin; /* For modern browsers */
+    scrollbar-color: #004d40 #f0f4f8; 
+    scrollbar-width: thin; 
   }
   
   .tips-body::-webkit-scrollbar {
@@ -90,14 +90,14 @@
     flex: 1 1 calc(33.333% - 1em);
     box-sizing: border-box;
     color: white;
-    cursor: pointer; /* Added cursor change on hover */
+    cursor: pointer;
   }
   
   .tips-card:hover,
   .tips-card:active {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    background-color: #00796b; /* Slight color change on hover/touch */
+    background-color: #00796b; 
   }
   
   .tips-card h3 {
