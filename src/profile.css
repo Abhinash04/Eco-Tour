@@ -24,7 +24,7 @@
 }
 
 .profile-header {
-    background-color: #004D40;
+    background-color: #228B22;
     color: #ffffff;
     padding: 30px 20px;
 }
@@ -74,11 +74,11 @@
 
 .profile-bio h2 {
     margin-top: 0;
-    color: #004D40;
+    color: #228B22;
 }
 
 .profile-social {
-    background-color: #004D40;
+    background-color: #228B22;
     padding: 20px;
 }
 
@@ -111,7 +111,7 @@
     margin-bottom: 20px;
     margin-top: 0;
     padding: 10px 0;
-    background-color: #004D40;
+    background-color: #228B22;
     color: rgb(255, 255, 255);
 }
 
@@ -126,7 +126,7 @@
     font-size: 20px;
     margin: 0;
     margin-top: 20px;
-    color: #004D40;
+    color: #228B22;
 }
 
 .trip-info p {
@@ -139,7 +139,7 @@
     width: 100%;
     max-width: 770px;
     margin-top: 10px;
-    background: #004D40;
+    background: #228B22;
     border-radius: 8px;
     margin-left: 10px;
     box-shadow: 0 4px 15px rgb(41, 38, 38);
@@ -173,7 +173,7 @@
 button[type="submit"] {
     padding: 10px 20px;
     background-color: #ffffff;
-    color: #004D40;
+    color: #228B22;
     border: none;
     border-radius: 15px;
     cursor: pointer;

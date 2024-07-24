@@ -7,12 +7,14 @@ import Destination from './Destination';
 import Profile from './Profile';
 import Tips from './Tips';
 import Review from './Review';
+import SignUp from './components/SignUp';
+import SignIn from './components/SignIn';
+import Toggle from './components/Toggle';
 
 const App = () => {
     const [isActive, setIsActive] = useState(false);
 
     const toggleActive = () => {
-        console.log('Toggling active state');
         setIsActive(!isActive);
     };
 
@@ -26,6 +28,19 @@ const App = () => {
                 <Route path="/tips" element={<Tips />} />
                 <Route path="/review" element={<Review />} />
                 <Route path="/profile" element={<Profile />} />
+                <Route path="/signup" element={
+                    <div className={`ap-container ${isActive ? 'active' : ''}`}>
+                        <SignUp onToggle={toggleActive} />
+                        <SignIn onToggle={toggleActive} />
+                        <Toggle onToggle={toggleActive} />
+                    </div>
+                } />
+                <Route path="/signin" element={
+                    <div className={`ap-container ${isActive ? 'active' : ''}`}>
+                        <SignIn onToggle={toggleActive} />
+                        <Toggle onToggle={toggleActive} />
+                    </div>
+                } />
             </Routes>
         </Router>
     );
