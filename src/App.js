@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home';
-import SignUp from './components/SignUp';
-import SignIn from './components/SignIn';
-import Toggle from './components/Toggle';
 import About from './About';
 import Contact from './Contact';
 import Destination from './Destination';
@@ -29,19 +26,6 @@ const App = () => {
                 <Route path="/tips" element={<Tips />} />
                 <Route path="/review" element={<Review />} />
                 <Route path="/profile" element={<Profile />} />
-                <Route path="/signup" element={
-                    <div className={`container ${isActive ? 'active' : ''}`}>
-                        <SignUp />
-                        <SignIn />
-                        <Toggle onToggle={toggleActive} />
-                    </div>
-                } />
-                <Route path="/signin" element={
-                    <div className={`container ${isActive ? 'active' : ''}`}>
-                        <SignIn />
-                        <Toggle onToggle={toggleActive} />
-                    </div>
-                } />
             </Routes>
         </Router>
     );
