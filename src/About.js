@@ -13,16 +13,7 @@ const About = () => {
                 <h1>About Us</h1>
             </div>
             <main>
-                <section id="who-we-are">
-                    <div className="title">
-                        <h1>Who We Are</h1>
-                    </div>
-                    <p>Welcome to ECO-TOUR! <br />
-                        We are a team of passionate travel enthusiasts dedicated to creating unforgettable travel experiences with a focus on sustainability. <br />
-                        Our mission is to offer exceptional travel planning services that allow you to explore the world while minimizing your environmental impact. <br />
-                        With our expertise and commitment to responsible tourism, we ensure that every journey is not only enjoyable but also ethical and eco-friendly.
-                    </p>
-                </section>
+        
                 <section id="our-objective">
                     <div className="title">
                         <h1>Our Objective</h1>
