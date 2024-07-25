@@ -1,5 +1,6 @@
 import React from 'react';
 import './profile.css';
+import Header from './components/Header';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import profileimage from './images/profileimage.png';
 import { 
@@ -28,6 +29,7 @@ import {
 const Profile = () => {
   return (
     <div className="pr-body">
+      <Header/>
       <div className="pr-container">
         <div className="profile-container">
           <div className="profile-header">
