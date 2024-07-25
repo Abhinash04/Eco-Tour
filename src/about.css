@@ -1,5 +1,5 @@
 .ab-body {
-     margin-top: 130px;
+    margin-top: 110px;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
@@ -8,26 +8,15 @@
     background-color: #f4f4f4;
 }
 
-header {
-    margin: 20px;
-    padding: 20px;
-}
-
-.abclass img {
-    padding-left: 80px;
-    max-width: 100%;
-    height: auto;
-}
-
 .abclass h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px;
     padding: 20px;
-    font-family: 'Times New Roman';
+    font-family: 'Algerian';
     font-weight: 100;
-    font-size: 5vw; /* Adjusts based on viewport width */
+    font-size: 4vw; 
     border-bottom: 2px solid black;
     color: #34b341;
 }
@@ -53,9 +42,9 @@ section h1 {
     margin: 4px;
     padding-bottom: 4px;
     color: #4CAF50;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Algerian', Times, serif;
     font-weight: 400;
-    font-size: 4vw; /* Adjusts based on viewport width */
+    font-size: 4vw;
     margin-bottom: 0.5rem;
     display: flex;
     align-items: center;
@@ -86,7 +75,7 @@ section h1 {
 }
 
 section p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', Times, serif;
     font-size: 1.5em;
 }
 
@@ -97,31 +86,20 @@ ul {
 
 ul li {
     margin-bottom: 0.5rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+    font-family: 'Roboto', Times, serif;
+    font-size: 1.25em;
     line-height: 3rem;
 }
 
 ul li strong {
     color: #4CAF50;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1em;
+    font-family: 'Roboto', Times, serif;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
 
 @media (max-width: 768px) {
-    .class img {
-        padding-left: 0;
-    }
 
     .ab-main {
         padding: 1rem;
@@ -139,5 +117,9 @@ footer {
 
     .abclass h1 {
         font-size: 8vw;
+    }
+
+    .abclass h1 {
+        font-size: 6vw;
     }
 }
