@@ -80,6 +80,7 @@ const Profile = () => {
                 <h3><FontAwesomeIcon icon={faMapMarkerAlt} /> Source1-Destination1</h3>
                 <p>
                   <FontAwesomeIcon icon={faCalendarAlt} /> April 8-18, 2024
+                  <br/>
                   <FontAwesomeIcon icon={faClipboardList} /> Activities: Hiking, Bird Watching
                 </p>
                 <p>User rating:
@@ -96,6 +97,7 @@ const Profile = () => {
                 <h3><FontAwesomeIcon icon={faMapMarkerAlt} /> Source2-Destination2</h3>
                 <p>
                   <FontAwesomeIcon icon={faCalendarAlt} /> May 1-8, 2024
+                  <br/>
                   <FontAwesomeIcon icon={faClipboardList} /> Activities: Snorkeling, Wildlife Viewing
                 </p>
                 <p>User rating:

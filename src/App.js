@@ -10,7 +10,6 @@ import Review from './Review';
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
 import Toggle from './components/Toggle';
-import Header from './components/Header'
 
 const App = () => {
     const [isActive, setIsActive] = useState(false);
@@ -29,7 +28,6 @@ const App = () => {
                 <Route path="/tips" element={<Tips />} />
                 <Route path="/review" element={<Review />} />
                 <Route path="/profile" element={<Profile />} />
-                <Route path="/header" element={<Header />} />
                 <Route path="/signup" element={
                     <div className={`ap-container ${isActive ? 'active' : ''}`}>
                         <SignUp onToggle={toggleActive} />
@@ -40,6 +38,7 @@ const App = () => {
                 <Route path="/signin" element={
                     <div className={`ap-container ${isActive ? 'active' : ''}`}>
                         <SignIn onToggle={toggleActive} />
+                        <SignUp onToggle={toggleActive} />
                         <Toggle onToggle={toggleActive} />
                     </div>
                 } />
