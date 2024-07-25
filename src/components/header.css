@@ -64,13 +64,7 @@
 #close{
     display: none;
 }
-@media (max-width:1052px){
-    #header{
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-}
-@media (max-width: 900px){
+@media (max-width: 1062px){
     #header{
         padding: 10px 30px;
     }
