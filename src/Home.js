@@ -1,9 +1,20 @@
-import React from "react";
+import React from 'react';
+import './home.css';
 
-const Home = () => {
+function Home() {
   return (
-    <div>Home</div>
-  )
+    <div className="Home">
+      <main>
+        <section id="hero">
+          <h1>We travel not to escape life, but for life not to escape us and our planet.</h1>
+          <button>Know more</button>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2024 ECOTOUR</p>
+      </footer>
+    </div>
+  );
 }
 
 export default Home;
