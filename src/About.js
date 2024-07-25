@@ -1,10 +1,11 @@
 import React from 'react';
 import './about.css';
+import Header from './components/Header'
 
 const About = () => {
     return (
         <div className='ab-body'>
-            <header></header>
+            <Header/>
 
             <div className="abclass">
               
