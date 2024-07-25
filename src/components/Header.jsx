@@ -18,7 +18,7 @@ const Header = () => {
     };
 
     return (
-        <div className="pr-body">
+        <div className="pr1-body">
             <section id="header">
                 <a href="#"><img src={logo} alt="Logo" className="logo" /></a>
                 <div>

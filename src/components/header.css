@@ -1,4 +1,4 @@
-.pr-body {
+.pr1-body {
     font-family: 'Arial', sans-serif;
     height: 1vh;
     background-color:#ced7df
@@ -22,7 +22,7 @@
     left: 0;
     right: 0;
     border-radius: 10px;
-    margin:15px 15px;
+    margin:0px 15px 15px 15px;
     border: 1px solid black;
 }
 #navbar{
