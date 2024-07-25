@@ -7,7 +7,6 @@ const Tips = () => {
       <main className="tips-main">
         <h1 className="tips-heading1">Educational Tips</h1>
         
-        {/* Reduce Section */}
         <section className="tips-section" id="reduce">
           <h2 className="tips-heading2">Reduce</h2>
           <div className="tips-card-container">
@@ -32,7 +31,7 @@ const Tips = () => {
           </div>
         </section>
 
-        {/* Reuse Section */}
+        
         <section className="tips-section" id="reuse">
           <h2 className="tips-heading2">Reuse</h2>
           <div className="tips-card-container">
@@ -57,7 +56,7 @@ const Tips = () => {
           </div>
         </section>
 
-        {/* Recycle Section */}
+        
         <section className="tips-section" id="recycle">
           <h2 className="tips-heading2">Recycle</h2>
           <div className="tips-card-container">

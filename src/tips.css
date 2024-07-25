@@ -1,119 +1,209 @@
 .tips-body {
-    font-family: "Arial", sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f0f4f8;
-    color: #333;
-    line-height: 1.6;
-    overflow-y: scroll;
-    scrollbar-color: #004d40 #f0f4f8; 
-    scrollbar-width: thin; 
-  }
-  
-  .tips-body::-webkit-scrollbar {
-    width: 12px;
-  }
-  
-  .tips-body::-webkit-scrollbar-track {
-    background: #f0f4f8;
-  }
-  
-  .tips-body::-webkit-scrollbar-thumb {
-    background-color: #004d40;
-    border-radius: 10px;
-    border: 3px solid #f0f4f8;
-  }
-  
-  .tips-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
-  }
-  
-  .tips-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2em;
-    box-sizing: border-box;
-    margin-top: 3em;
-    max-width: 1200px;
-    width: 100%;
-  }
-  
-  .tips-heading1 {
-    color: #004d40;
-    margin-left: 0;
-    text-align: center;
-  }
-  
-  .tips-heading2 {
-    color: #004d40;
-    border-bottom: 2px solid #004d40;
-    padding-bottom: 0.5em;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .tips-heading3 {
-    color: #b6c5c3;
-    margin-top: 0;
-  }
-  
-  .tips-section {
-    width: 100%;
-    max-width: 1200px;
-    margin: 2em 0;
-    padding: 2em;
-    background: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(39, 112, 19, 0.2);
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #e0f7fa, #f0f4f8);
+  color: #333;
+  line-height: 1.6;
+  overflow-y: auto;
+  scrollbar-color: #004d40 #f0f4f8;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+.tips-body::-webkit-scrollbar {
+  width: 12px;
+}
+
+.tips-body::-webkit-scrollbar-track {
+  background: #f0f4f8;
+}
+
+.tips-body::-webkit-scrollbar-thumb {
+  background-color: #004d40;
+  border-radius: 10px;
+  border: 3px solid #f0f4f8;
+}
+.tips-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.tips-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  box-sizing: border-box;
+  margin-top: 3em;
+  max-width: 1200px;
+  width: 100%;
+}
+.tips-heading1 {
+  color: #004d40;
+  margin-left: 0;
+  text-align: center;
+  font-size: 2.5em;
+  text-shadow: 2px 2px #b2dfdb;
+}
+
+.tips-heading2 {
+  color: #004d40;
+  border-bottom: 2px solid #004d40;
+  padding-bottom: 0.5em;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+  text-shadow: 2px 2px #b2dfdb;
+}
+
+.tips-heading3 {
+  color: #ffffff;
+  margin-top: 0;
+  font-size: 1.5em;
+  text-shadow: 1px 1px #e0f2f1;
+}
+
+.tips-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 2em 0;
+  padding: 2em;
+  background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("https://www.example.com/path/to/your/image.jpg") no-repeat center
+      center/cover;
+  border: 1px solid rgba(39, 112, 19, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.tips-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Increased box shadow on hover */
+}
+
+.tips-card-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.tips-card {
+  background: linear-gradient(135deg, #004d40, #00796b);
+  border: 1px solid rgba(53, 137, 32, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
+  flex: 1 1 calc(33.333% - 1em);
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+
+.tips-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  background-color: #00796b;
+}
+
+.tips-card.active {
+  transform: translate(-50%, -50%) scale(1.2);
+  z-index: 10;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+.tips-card h3 {
+  margin-top: 0;
+  text-shadow: 1px 1px #004d40;
+  color: #ffffff;
+}
+.tips-card p {
+  margin: 0;
+}
+@media (max-width: 768px) {
   .tips-card-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
+    flex-direction: column;
   }
-  
+
   .tips-card {
-    background: #004d40;
-    border: 1px solid rgba(53, 137, 32, 0.2);
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 1em;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
-      background-color 0.3s ease-in-out;
-    flex: 1 1 calc(33.333% - 1em);
-    box-sizing: border-box;
-    color: white;
-    cursor: pointer;
+    flex: 1 1 100%;
   }
-  
-  .tips-card:hover,
-  .tips-card:active {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    background-color: #00796b; 
+}
+.tips-body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.3) 20%,
+    transparent 50%
+  );
+  pointer-events: none;
+  z-index: 1;
+  animation: bubbleAnimation 20s infinite;
+}
+
+@keyframes bubbleAnimation {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.5;
   }
-  
-  .tips-card h3 {
-    margin-top: 0;
+  50% {
+    transform: translateY(-50px) scale(1.2);
+    opacity: 0.3;
   }
-  
-  .tips-card p {
-    margin: 0;
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.5;
   }
-  
-  @media (max-width: 768px) {
-    .tips-card-container {
-      flex-direction: column;
-    }
-  
-    .tips-card {
-      flex: 1 1 100%;
-    }
+}
+
+.tips-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.tips-card::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 140%;
+  height: 140%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2), transparent);
+  border-radius: 50%;
+  transform: scale(0);
+  transition: transform 0.5s ease-in-out;
+  z-index: 0;
+}
+
+.tips-card:hover::after {
+  transform: scale(1.5);
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background: linear-gradient(135deg, #e0f7fa, #f0f4f8);
   }
+  50% {
+    background: linear-gradient(135deg, #b2dfdb, #c8e6c9);
+  }
+  100% {
+    background: linear-gradient(135deg, #e0f7fa, #f0f4f8);
+  }
+}
