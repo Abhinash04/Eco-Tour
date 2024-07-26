@@ -17,11 +17,8 @@ const Tour = () => {
         mousewheel={{ invert: false, sensitivity: 1 }}
       >
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-one">Kashmir</h1>
-          <div className="card">
-        
-        </div>
-          <img src="https://c4.wallpaperflare.com/wallpaper/146/888/19/himalayas-kashmir-mountains-winter-wallpaper-preview.jpg" alt="Kashmir"/>
+          <h1 className="tour-title tour-title-one">kedarnath</h1>
+          <img src="https://wallpapers.com/images/hd/kedarnath-temple-fences-4k-20mjafmypuf2gqrn.jpg" alt="kedarnath temple"/>
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
           <h1 className="tour-title tour-title-two">Manali</h1>
@@ -33,38 +30,89 @@ const Tour = () => {
           <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Alappuzha_Boat_Beauty_W.jpg" alt="Allepey" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-four">Golden Temple</h1>
-          <img src="https://static.toiimg.com/thumb/61820954.cms?resizemode=75&width=1200&height=900" alt="Stockholm" />
+          <h1 className="tour-title tour-title-four">Amritsar</h1>
+          <img src="https://m.media-amazon.com/images/I/81fS1MSi9wL.jpg" alt="Amritsar" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-five">AksharDham Temple</h1>
-          <img src="https://media.easemytrip.com/media/Blog/India/637116640324801740/637116640324801740ptZ4Mc.jpg" alt="Paris" />
+          <h1 className="tour-title tour-title-five">AksharDham</h1>
+          <img src="https://c4.wallpaperflare.com/wallpaper/629/182/419/temples-akshardham-wallpaper-preview.jpg" alt="AksharDham" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
           <h1 className="tour-title tour-title-six">Char Minar</h1>
-          <img src="https://dailymela.com/wp-content/uploads/2024/05/Charminar-Hyderabad-1024x536.jpg" alt="Char Minar" />
+          <img src="https://wallpapercave.com/wp/wp6539377.jpg" alt="Char Minar" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
           <h1 className="tour-title tour-title-seven">Hawa Mahal</h1>
-          <img src="https://hawamahalfestival.in/images/hawa-mahal-bg-992.jpg" alt="Hawa Mahal" />
+          <img src="https://wallpapercave.com/wp/wp4555030.jpg" alt="Hawa Mahal" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-eight">Jagannath Temple</h1>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ABX_SHRI_PURUSHOTTAMA_KSHETRA_PURI.jpg/1200px-ABX_SHRI_PURUSHOTTAMA_KSHETRA_PURI.jpg" alt="Jagannath Temple" />
+          <h1 className="tour-title tour-title-eight">Puri</h1>
+          <img src="https://wallpapercave.com/wp/wp8207549.jpg" alt="Puri" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
           <h1 className="tour-title tour-title-nine">Goa Beach</h1>
-          <img src="https://media1.thrillophilia.com/filestore/b8iqw6n62s37df5vqj13dpxr17cg_shutterstock_1850377780.jpg?w=400&dpr=2" alt="Goa Beach" />
+          <img src="https://wallpapercave.com/wp/wp3170957.jpg" alt="Goa Beach" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-ten">GateWay of India</h1>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Gateway_of_India_in_Mumbai.jpg" alt="GateWay of India" />
+          <h1 className="tour-title tour-title-ten">Taj Mahal</h1>
+          <img src="https://wallpaper.forfun.com/fetch/3c/3c7406b15a1783bcc5f031e285c91922.jpeg" alt="Taj Mahal" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
           <h1 className="tour-title tour-title-eleven">India Gate</h1>
-          <img src="https://pixelz.cc/wp-content/uploads/2017/11/florence-cathedral-italy-uhd-8k-wallpaper-.jpg" alt="India Gate" />
+          <img src="https://wallpapers.com/images/hd/india-gate-in-delhi-omvkk9thuh7nvsop.jpg" alt="India Gate" />
         </SwiperSlide>
-        
+        <SwiperSlide className="tour-swiper-slide">
+          <h1 className="tour-title tour-title-twelve"></h1>
+          <img src="" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="tour-swiper-slide">
+          <h1 className="tour-title tour-title-thirteen"></h1>
+          <img src="" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="tour-swiper-slide">
+          <h1 className="tour-title tour-title-fourteen"></h1>
+          <img src="" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="tour-swiper-slide">
+          <h1 className="tour-title tour-title-fifteen"></h1>
+          <img src="" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="tour-swiper-slide">
+          <h1 className="tour-title tour-title-sixteen"></h1>
+          <img src="" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="tour-swiper-slide">
+          <h1 className="tour-title tour-title-seventeen"></h1>
+          <img src="" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="tour-swiper-slide">
+          <h1 className="tour-title tour-title-eighteen"></h1>
+          <img src="" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="tour-swiper-slide">
+          <h1 className="tour-title tour-title-nineteen"></h1>
+          <img src="" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="tour-swiper-slide">
+          <h1 className="tour-title tour-title-twenty"></h1>
+          <img src="" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="tour-swiper-slide">
+          <h1 className="tour-title tour-title-twentyone"></h1>
+          <img src="" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="tour-swiper-slide">
+          <h1 className="tour-title tour-title-twentytwo"></h1>
+          <img src="" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="tour-swiper-slide">
+          <h1 className="tour-title tour-title-twentythree"></h1>
+          <img src="" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="tour-swiper-slide">
+          <h1 className="tour-title tour-title-twentyfour"></h1>
+          <img src="" alt="" />
+        </SwiperSlide>
       </Swiper>
     </section>
   );
