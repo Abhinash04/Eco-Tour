@@ -16,6 +16,9 @@ const Tour = () => {
       >
         <SwiperSlide className="tour-swiper-slide">
           <h1 className="tour-title tour-title-one">Kashmir</h1>
+          <div className="card">
+        
+        </div>
           <img src="https://c4.wallpaperflare.com/wallpaper/146/888/19/himalayas-kashmir-mountains-winter-wallpaper-preview.jpg" alt="Kashmir"/>
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
