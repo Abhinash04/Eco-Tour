@@ -1,7 +1,7 @@
 .pr1-body {
     font-family: 'Arial', sans-serif;
     height: 1vh;
-    background-color:#ced7df
+    background-color:#ffffff
 }
 .logo{
     width: 150px;
@@ -64,7 +64,7 @@
 #close{
     display: none;
 }
-@media (max-width: 1062px){
+@media (max-width: 1080px){
     #header{
         padding: 10px 30px;
     }
