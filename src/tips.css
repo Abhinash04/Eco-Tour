@@ -2,11 +2,11 @@
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #e0f7fa, #f0f4f8);
+  background: linear-gradient(135deg, #afc7b7, #fff);
   color: #333;
   line-height: 1.6;
   overflow-y: auto;
-  scrollbar-color: #004d40 #f0f4f8;
+  scrollbar-color: #34b341 #f0f4f8;
   scrollbar-width: thin;
   scroll-behavior: smooth;
 }
@@ -19,7 +19,7 @@
 }
 
 .tips-body::-webkit-scrollbar-thumb {
-  background-color: #004d40;
+  background-color: #34b341;
   border-radius: 10px;
   border: 3px solid #f0f4f8;
 }
@@ -41,22 +41,24 @@
   width: 100%;
 }
 .tips-heading1 {
-  color: #004d40;
+  color: #34b341;
   margin-left: 0;
   text-align: center;
   font-size: 2.5em;
   text-shadow: 2px 2px #b2dfdb;
+  font-family: "Algerian";
 }
 
 .tips-heading2 {
-  color: #004d40;
-  border-bottom: 2px solid #004d40;
+  color: #34b341;
+  border-bottom: 2px solid #34b341;
   padding-bottom: 0.5em;
   width: 100%;
   text-align: center;
   font-size: 2em;
   margin-bottom: 1em;
   text-shadow: 2px 2px #b2dfdb;
+  font-family: "Procerus";
 }
 
 .tips-heading3 {
@@ -64,6 +66,7 @@
   margin-top: 0;
   font-size: 1.5em;
   text-shadow: 1px 1px #e0f2f1;
+  font-family: "Rolling beat";
 }
 
 .tips-section {
@@ -71,22 +74,18 @@
   max-width: 1200px;
   margin: 2em 0;
   padding: 2em;
-  background: linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.7)
-    ),
+  background: linear-gradient(135deg, #fff, rgba(255, 255, 255, 0.7)),
     url("https://www.example.com/path/to/your/image.jpg") no-repeat center
       center/cover;
   border: 1px solid rgba(39, 112, 19, 0.2);
   border-radius: 12px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .tips-section:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Increased box shadow on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
 .tips-card-container {
@@ -97,7 +96,7 @@
 }
 
 .tips-card {
-  background: linear-gradient(135deg, #004d40, #00796b);
+  background: linear-gradient(135deg, #00b36e, #00796b);
   border: 1px solid rgba(53, 137, 32, 0.2);
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
@@ -126,7 +125,7 @@
 }
 .tips-card h3 {
   margin-top: 0;
-  text-shadow: 1px 1px #004d40;
+  text-shadow: 1px 1px #34b341;
   color: #ffffff;
 }
 .tips-card p {
@@ -206,4 +205,8 @@
   100% {
     background: linear-gradient(135deg, #e0f7fa, #f0f4f8);
   }
+}
+.tips-para {
+  font-size: 1.5em;
+  font-family: "Belleda script";
 }

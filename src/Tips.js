@@ -25,9 +25,7 @@ const Tips = () => {
               </p>
             </div>
             <div className="tips-card">
-              <h3 className="tips-heading3">
-                Support Eco-Friendly Accommodation
-              </h3>
+              <h3 className="tips-heading3">Eco-Friendly Accommodation</h3>
               <p className="tips-para">
                 Stay in hotels and lodges that prioritize energy efficiency and
                 sustainable practices.
