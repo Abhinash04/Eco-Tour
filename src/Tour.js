@@ -15,54 +15,51 @@ const Tour = () => {
         mousewheel={{ invert: false, sensitivity: 1 }}
       >
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-one">Edinburgh</h1>
-          <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/1bdebd02-d675-4469-be36-dc248448980d" alt="Edinburgh" />
+          <h1 className="tour-title tour-title-one">Kashmir</h1>
+          <img src="https://c4.wallpaperflare.com/wallpaper/146/888/19/himalayas-kashmir-mountains-winter-wallpaper-preview.jpg" alt="Kashmir"/>
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-two">Argentine Patagonia</h1>
-          <img src="https://getwallpapers.com/wallpaper/full/3/c/6/699218-patagonia-wallpapers-2560x1600-for-1080p.jpg" alt="Argentine Patagonia" />
+          <h1 className="tour-title tour-title-two">Manali</h1>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Manali_City.jpg" alt="Manali" />
         </SwiperSlide>
         
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-three">Amalfi Coast</h1>
-          <img src="https://images.unsplash.com/photo-1710897071793-db30046f5ed6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Amalfi Coast" />
+          <h1 className="tour-title tour-title-three">Allepey</h1>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Alappuzha_Boat_Beauty_W.jpg" alt="Allepey" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-four">Stockholm</h1>
-          <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/62411bbf-dde9-4654-9298-1fe3e7da2d64" alt="Stockholm" />
+          <h1 className="tour-title tour-title-four">Golden Temple</h1>
+          <img src="https://static.toiimg.com/thumb/61820954.cms?resizemode=75&width=1200&height=900" alt="Stockholm" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-five">Paris</h1>
-          <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/b49c729f-65b0-4a2a-baf7-1d9f180df0a6" alt="Paris" />
+          <h1 className="tour-title tour-title-five">AksharDham Temple</h1>
+          <img src="https://media.easemytrip.com/media/Blog/India/637116640324801740/637116640324801740ptZ4Mc.jpg" alt="Paris" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-six">Brugge</h1>
-          <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/c9a61071-c74d-4e8b-966a-6948cdbd9665" alt="Brugge" />
+          <h1 className="tour-title tour-title-six">Char Minar</h1>
+          <img src="https://dailymela.com/wp-content/uploads/2024/05/Charminar-Hyderabad-1024x536.jpg" alt="Char Minar" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-seven">Bavaria</h1>
-          <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/25ab6cb7-9251-4aa5-9993-32ebd8542616" alt="Bavaria" />
+          <h1 className="tour-title tour-title-seven">Hawa Mahal</h1>
+          <img src="https://hawamahalfestival.in/images/hawa-mahal-bg-992.jpg" alt="Hawa Mahal" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-eight">Copenhagen</h1>
-          <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/365656bc-24bc-4d95-92da-7f34faa616cf" alt="Copenhagen" />
+          <h1 className="tour-title tour-title-eight">Jagannath Temple</h1>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ABX_SHRI_PURUSHOTTAMA_KSHETRA_PURI.jpg/1200px-ABX_SHRI_PURUSHOTTAMA_KSHETRA_PURI.jpg" alt="Jagannath Temple" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-nine">NiagaraFalls</h1>
-          <img src="https://wallpapercave.com/wp/hwZ4A02.jpg" alt="Niagara Falls" />
+          <h1 className="tour-title tour-title-nine">Goa Beach</h1>
+          <img src="https://media1.thrillophilia.com/filestore/b8iqw6n62s37df5vqj13dpxr17cg_shutterstock_1850377780.jpg?w=400&dpr=2" alt="Goa Beach" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-ten">Santorini</h1>
-          <img src="https://www.hdwallpaper.nu/wp-content/uploads/2017/03/santorini-24.jpg" alt="Santorini" />
+          <h1 className="tour-title tour-title-ten">GateWay of India</h1>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Gateway_of_India_in_Mumbai.jpg" alt="GateWay of India" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-eleven">Florence</h1>
-          <img src="https://pixelz.cc/wp-content/uploads/2017/11/florence-cathedral-italy-uhd-8k-wallpaper-.jpg" alt="Florence" />
+          <h1 className="tour-title tour-title-eleven">India Gate</h1>
+          <img src="https://pixelz.cc/wp-content/uploads/2017/11/florence-cathedral-italy-uhd-8k-wallpaper-.jpg" alt="India Gate" />
         </SwiperSlide>
-        <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-twelve">Yosemite</h1>
-          <img src="https://cdn.wallpapersafari.com/53/21/cXDGH2.jpg" alt="Yosemite" />
-        </SwiperSlide>
+        
       </Swiper>
     </section>
   );

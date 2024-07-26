@@ -41,7 +41,7 @@
   .tour-title-nine,
   .tour-title-eleven
    {
-    -webkit-text-stroke: 1px rgba(16, 104, 31, 0.8);
+    -webkit-text-stroke: 1px black;
     background: url('https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/e9d06cb6-2844-49ed-9bde-23d3364b9fa4');
     background-clip: text;
     -webkit-background-clip: text;
@@ -53,7 +53,7 @@
   .tour-title-eight,
   .tour-title-ten,
   .tour-title-twelve {
-    -webkit-text-stroke: 1px rgba(16, 104, 31, 0.8);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.8);
     background: url('https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/e9d06cb6-2844-49ed-9bde-23d3364b9fa4');
     background-clip: text;
     -webkit-background-clip: text;
