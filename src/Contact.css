@@ -1,7 +1,7 @@
 .contact-body {
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
-  background: linear-gradient(#d5ffe8, #5dc5b3);
+  background: linear-gradient(#d5ffe8, #32CD32);
 }
 
 .contact-container {
@@ -20,10 +20,11 @@
 
 .contact-left-title h2 {
   font-weight: 600;
+  font-family: Algerian;
   color: #004d40;
-  font-size: 40px;
+  font-size: 60px;
   margin-bottom: 5px;
-  text-shadow: 2px 2px #b2dfdb;
+  /* text-shadow: 2px 2px #b2dfdb; */
 }
 
 .contact-left-title hr {
@@ -69,7 +70,7 @@
   gap: 10px;
   border: none;
   border-radius: 50px;
-  background: linear-gradient(270deg, #37766c, #0a0f0d);
+  background: linear-gradient(270deg, darkgreen, #0a0f0d);
   cursor: pointer;
 }
 
