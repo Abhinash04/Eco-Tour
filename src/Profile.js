@@ -48,7 +48,7 @@ const Profile = () => {
             </div>
             <div className="info-item">
               <FontAwesomeIcon icon={faMapMarkerAlt} />
-              <span>Location: Bhubaneswar, Odisha, India</span>
+              <span>Location: City, State, Country</span>
             </div>
             <div className="info-item">
               <FontAwesomeIcon icon={faEnvelope} />
@@ -56,7 +56,7 @@ const Profile = () => {
             </div>
             <div className="info-item">
               <FontAwesomeIcon icon={faPhone} />
-              <span>Phone: +91 7847049934</span>
+              <span>Phone: +91 7847XXXXXX</span>
             </div>
           </div>
           <div className="profile-bio">
@@ -77,7 +77,7 @@ const Profile = () => {
             <h2><FontAwesomeIcon icon={faHistory} /> Travel History</h2>
             <div className="trip">
               <div className="trip-info">
-                <h3><FontAwesomeIcon icon={faMapMarkerAlt} /> Source1-Destination1</h3>
+                <h3><FontAwesomeIcon icon={faMapMarkerAlt} /> Source1 - Destination1</h3>
                 <p>
                   <FontAwesomeIcon icon={faCalendarAlt} /> April 8-18, 2024
                   <br/>
@@ -94,7 +94,7 @@ const Profile = () => {
             </div>
             <div className="trip">
               <div className="trip-info">
-                <h3><FontAwesomeIcon icon={faMapMarkerAlt} /> Source2-Destination2</h3>
+                <h3><FontAwesomeIcon icon={faMapMarkerAlt} /> Source2 - Destination2</h3>
                 <p>
                   <FontAwesomeIcon icon={faCalendarAlt} /> May 1-8, 2024
                   <br/>
