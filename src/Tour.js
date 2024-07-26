@@ -17,7 +17,7 @@ const Tour = () => {
         mousewheel={{ invert: false, sensitivity: 1 }}
       >
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-one">kedarnath</h1>
+          <h1 className="tour-title tour-title-one">Kedarnath</h1>
           <img src="https://wallpapers.com/images/hd/kedarnath-temple-fences-4k-20mjafmypuf2gqrn.jpg" alt="kedarnath temple"/>
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
@@ -62,56 +62,56 @@ const Tour = () => {
           <img src="https://wallpapers.com/images/hd/india-gate-in-delhi-omvkk9thuh7nvsop.jpg" alt="India Gate" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-twelve"></h1>
-          <img src="" alt="" />
+          <h1 className="tour-title tour-title-twelve">Kutch</h1>
+          <img src="https://www.gujarattourism.com/content/dam/gujrattourism/images/weekend-get-aways/great-rann-of-kutch/gallery/Great%20Rann%20Of%20Kutch%20(14).jpg" alt="Kutch" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-thirteen"></h1>
-          <img src="" alt="" />
+          <h1 className="tour-title tour-title-thirteen">Lotus Temple</h1>
+          <img src="https://wallpapercave.com/wp/wp3776823.jpg" alt="Lotus Temple" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-fourteen"></h1>
-          <img src="" alt="" />
+          <h1 className="tour-title tour-title-fourteen">Elora Caves</h1>
+          <img src="https://wallpapercave.com/wp/wp9401269.jpg" alt="Elora Caves" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-fifteen"></h1>
-          <img src="" alt="" />
+          <h1 className="tour-title tour-title-fifteen">Dal Lake</h1>
+          <img src="https://wallpapercave.com/wp/wp8165739.jpg" alt="Dal Lake" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-sixteen"></h1>
-          <img src="" alt="" />
+          <h1 className="tour-title tour-title-sixteen">Konark Sun Temple</h1>
+          <img src="https://cdn.britannica.com/19/251919-050-D3E64798/konark-sun-temple-orissa-india-unesco-heritage-site.jpg" alt="Konark" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-seventeen"></h1>
-          <img src="" alt="" />
+          <h1 className="tour-title tour-title-seventeen">Gangtok</h1>
+          <img src="https://wallpapercave.com/wp/wp8551850.jpg" alt="Gangtok" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-eighteen"></h1>
-          <img src="" alt="" />
+          <h1 className="tour-title tour-title-eighteen">Rameswaram</h1>
+          <img src="https://wallpapercave.com/wp/wp10875786.jpg" alt="Rameswaram" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-nineteen"></h1>
-          <img src="" alt="" />
+          <h1 className="tour-title tour-title-nineteen">Kanyakumari</h1>
+          <img src="https://wallpapercave.com/wp/wp7626693.jpg" alt="Kanyakumari" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-twenty"></h1>
-          <img src="" alt="" />
+          <h1 className="tour-title tour-title-twenty">Bodh Gaya</h1>
+          <img src="https://wallpapercave.com/wp/wp10731786.jpg" alt="Bodh Gaya" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-twentyone"></h1>
-          <img src="" alt="" />
+          <h1 className="tour-title tour-title-twentyone">Leh</h1>
+          <img src="https://wallpapercave.com/wp/wp4527553.jpg" alt="Leh" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-twentytwo"></h1>
-          <img src="" alt="" />
+          <h1 className="tour-title tour-title-twentytwo">Gateway of India</h1>
+          <img src="https://wallpapercave.com/wp/wp5172691.jpg" alt="Gateway of India" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-twentythree"></h1>
-          <img src="" alt="" />
+          <h1 className="tour-title tour-title-twentythree">Mount Abu</h1>
+          <img src="https://wallpapercave.com/wp/wp10799121.jpg" alt="Mount Abu" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-twentyfour"></h1>
-          <img src="" alt="" />
+          <h1 className="tour-title tour-title-twentyfour">Nainital</h1>
+          <img src="https://wallpapercave.com/wp/wp2688903.jpg" alt="Nainital" />
         </SwiperSlide>
       </Swiper>
     </section>
