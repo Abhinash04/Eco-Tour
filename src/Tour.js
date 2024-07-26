@@ -2,10 +2,12 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css'; 
 import './tour.css';
+import Header from './components/Header';
 
 const Tour = () => {
   return (
     <section className="tour-section">
+    <Header/>
       <Swiper
         className="tour-swiper"
         grabCursor={true}
