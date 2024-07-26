@@ -5,10 +5,10 @@ const Tips = () => {
   return (
     <div className="tips-body">
       <main className="tips-main">
-        <h1 className="tips-heading1">Educational Tips</h1>
+        <h1 className="tips-heading1">EDUCATIONAL TIPS</h1>
 
         <section className="tips-section" id="reduce">
-          <h2 className="tips-heading2">Reduce</h2>
+          <h2 className="tips-heading2">REDUCE</h2>
           <div className="tips-card-container">
             <div className="tips-card">
               <h3 className="tips-heading3">Travel Light</h3>
@@ -37,7 +37,7 @@ const Tips = () => {
         </section>
 
         <section className="tips-section" id="reuse">
-          <h2 className="tips-heading2">Reuse</h2>
+          <h2 className="tips-heading2">REUSE</h2>
           <div className="tips-card-container">
             <div className="tips-card">
               <h3 className="tips-heading3">Bring Reusable Containers</h3>
@@ -64,7 +64,7 @@ const Tips = () => {
         </section>
 
         <section className="tips-section" id="recycle">
-          <h2 className="tips-heading2">Recycle</h2>
+          <h2 className="tips-heading2">RECYCLE</h2>
           <div className="tips-card-container">
             <div className="tips-card">
               <h3 className="tips-heading3">Separate Waste</h3>
