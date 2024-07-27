@@ -125,6 +125,7 @@
 .trip-info h3 {
     font-size: 20px;
     margin: 0;
+    margin-bottom: 5px;
     margin-top: 20px;
     color: #228B22;
 }
@@ -140,6 +141,7 @@
     max-width: 770px;
     margin-top: 10px;
     background: #ffffff;
+    margin-bottom: 10px;
     border-radius: 8px;
     margin-left: 10px;
     box-shadow: 0 4px 15px rgb(41, 38, 38);
@@ -148,9 +150,8 @@
 
 .interests-preferences h2 {
     font-size: 24px;
-    margin-bottom: 10px;
     margin-top: 0;
-    margin-left: 220px;
+    margin-left: 300px;
     padding: 10px 0;
     text-decoration: underline;
     color: #228B22;

@@ -18,7 +18,8 @@
     font-weight: 100;
     font-size: 4vw; 
     border-bottom: 2px solid black;
-    color: #34b341;
+    color: rgb(75, 241, 4);
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
 }
 
 .ab-main {
@@ -41,7 +42,8 @@ section:hover {
 section h1 {
     margin: 4px;
     padding-bottom: 4px;
-    color: #4CAF50;
+    color: rgb(75, 241, 4);
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
     font-family: 'Algerian', Times, serif;
     font-weight: 400;
     font-size: 4vw;
@@ -95,7 +97,7 @@ ul li strong {
     color: #4CAF50;
     font-family: 'Roboto', Times, serif;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.15em;
 }
 
 

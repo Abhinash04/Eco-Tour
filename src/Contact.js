@@ -1,9 +1,12 @@
 import React from "react";
 import globeimg from "./images/globeimg.png";
 import "./Contact.css";
+import Header from "./components/Header";
+
 const Contact = () => {
   return (
     <div className="contact-body">
+      <Header/>
       <div className="contact-container">
         <form
           action="https://api.web3forms.com/submit"

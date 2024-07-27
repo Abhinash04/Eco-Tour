@@ -1,12 +1,16 @@
 .contact-body {
   box-sizing: border-box;
-  font-family: "Outfit", sans-serif;
+  margin-top: 25px;
+  width: 100%;
+  height: 100%;
+  font-family: "Algerian", sans-serif;
   background: linear-gradient(#d5ffe8, #32CD32);
 }
 
 .contact-container {
-  height: 100vh;
   display: flex;
+  width: 100%;
+  height: 100%;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -19,12 +23,12 @@
 }
 
 .contact-left-title h2 {
-  font-weight: 600;
+  font-weight: bold;
   font-family: Algerian;
-  color: #004d40;
-  font-size: 60px;
+  color: rgb(75, 241, 4);
+  -webkit-text-stroke: 0.5px rgb(0, 6, 0);
+  font-size: 5vw;
   margin-bottom: 5px;
-  /* text-shadow: 2px 2px #b2dfdb; */
 }
 
 .contact-left-title hr {
@@ -64,7 +68,7 @@
 .contact-left button {
   display: flex;
   align-items: center;
-  padding: 15px 30px;
+  padding: 15px 50px;
   font-size: 16px;
   color: #fff;
   gap: 10px;

@@ -32,7 +32,6 @@
     z-index: 5;
     color: transparent;
     background-position: 0 0;
-    animation: tour-animated-text 20s linear infinite;
   }
   
   .tour-title-one,
@@ -60,8 +59,8 @@
   .tour-title-twentythree,
   .tour-title-twentyfour
    {
-    -webkit-text-stroke: 1px rgb(21, 255, 0);
-    background: rgb(0, 0, 0);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    background: rgb(75, 241, 4);
     background-clip: text;
   }
   

@@ -111,7 +111,7 @@ const Profile = () => {
             </div>
           </div>
           <div className="interests-preferences">
-            <h2><FontAwesomeIcon icon={faSlidersH} /> Interests and Preferences</h2>
+            <h2><FontAwesomeIcon icon={faSlidersH} />Preferences </h2>
             <form id="form1">
               <div className="preference-item">
                 <label htmlFor="climate"><FontAwesomeIcon icon={faSun} /> Preferred Climate:</label>
