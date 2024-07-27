@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.fr-body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #333;
+}
+
+.fr-footer {
+    position: relative;
+    width: 100%;
+    background: #004d00;
+    color: #ffffff;
+    overflow: hidden;
+    padding: 70px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fr-fadeIn 2s ease-in-out;
+}
+
+.fr-container {
+    position: relative;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.fr-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.fr-footer-col {
+    width: 45%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fr-fadeInUp 1s both;
+}
+
+.fr-footer-title {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-weight: 500;
+    position: relative;
+    animation: fr-fadeInLeft 1s both;
+}
+
+.fr-footer-text, .fr-footer-ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    animation: fr-fadeInLeft 1s both;
+    text-align: center;
+}
+
+.fr-footer-ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fr-footer-li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fr-footer-li i {
+    margin-right: 10px;
+}
+
+.fr-footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.fr-footer a:hover {
+    color: #8eb7aa;
+}
+
+.fr-social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    animation: fr-fadeInUp 1s both;
+}
+
+.fr-social-links a:hover {
+    color: #004d40;
+    background-color: #ffffff;
+    animation: fr-bounce 0.3s;
+}
+
+@keyframes fr-fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fr-fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fr-fadeInLeft {
+    0% { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fr-bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@media (max-width: 767px) {
+    .fr-footer-col {
+        width: 100%;
+    }
+}
