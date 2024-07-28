@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import './tour.css';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Services from './components/services';
 import india from './images/india.png'
 
@@ -118,6 +119,7 @@ const Tour = () => {
         </Swiper>
       </section>
       <Services />
+      <Footer/>
     </>
   );
 };
