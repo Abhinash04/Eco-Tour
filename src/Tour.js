@@ -100,8 +100,8 @@ const Tour = () => {
           <img src="https://wallpapercave.com/wp/wp10731786.jpg" alt="Bodh Gaya" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
-          <h1 className="tour-title tour-title-twentyone">Leh</h1>
-          <img src="https://wallpaperaccess.com/full/1398665.jpg" alt="Leh" />
+          <h1 className="tour-title tour-title-twentyone">Leh-Ladakh</h1>
+          <img src="https://wallpaperaccess.com/full/1398665.jpg" alt="Leh-Ladakh" />
         </SwiperSlide>
         <SwiperSlide className="tour-swiper-slide">
           <h1 className="tour-title tour-title-twentytwo">Mumbai</h1>
