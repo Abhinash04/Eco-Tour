@@ -8,7 +8,7 @@
 }
 
 .tips-body {
-  font-family: "Arial", sans-serif;
+  /* font-family: "Arial", sans-serif; */
   margin: 0;
   padding: 0;
   background: linear-gradient(135deg, #afc7b7, #fff);
@@ -50,12 +50,13 @@
   width: 100%;
 }
 .tips-heading1 {
-  color: #34b341;
+  color: rgb(75, 241, 4);
   margin-left: 0;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3em;
   text-shadow: 2px 2px #b2dfdb;
   font-family: "Algerian";
+  -webkit-text-stroke: 0.5px rgb(0, 6, 0);
 }
 
 .tips-heading2 {
@@ -68,14 +69,19 @@
   margin-bottom: 1em;
   text-shadow: 2px 2px #b2dfdb;
   font-family: "Procerus";
+  -webkit-text-stroke: 0.5px rgb(0, 6, 0);
 }
 
 .tips-heading3 {
   color: #ffffff;
   margin-top: 0;
-  font-size: 1.5em;
+  font-size: 1.6em;
   text-shadow: 1px 1px #e0f2f1;
-  font-family: "Rolling beat";
+  font-family: "procerus";
+}
+.tips-para {
+  font-size: 1.2em;
+  font-family: "sans serif";
 }
 
 .tips-section {
@@ -225,8 +231,4 @@
   100% {
     background: linear-gradient(135deg, #e0f7fa, #f0f4f8);
   }
-}
-.tips-para {
-  font-size: 1.5em;
-  font-family: "Belleda script";
 }
