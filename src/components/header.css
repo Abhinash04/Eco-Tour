@@ -6,14 +6,14 @@
 .logo{
     width: 150px;
     height: 50px;
-    padding: 2px;
     border-radius: 18px;
+    margin-bottom: 10px;
 }
 #header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2px 60px;
+    padding: 0px 40px;
     background-color: #ffffff;
     box-shadow: 0 5px 10px rgb(183, 255, 174);
     z-index: 999;
@@ -29,6 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 18px;
 }
 #navbar li{
     list-style: none;
@@ -44,7 +45,7 @@
 }
 #navbar button{
     cursor: pointer;
-    padding: 13px 17px;
+    padding: 0px 10px;
     border-radius: 20px;
     border-color: #004D40;
 }
@@ -64,7 +65,7 @@
 #close{
     display: none;
 }
-@media (max-width: 1080px){
+@media (max-width: 1060px){
     #header{
         padding: 10px 30px;
     }
