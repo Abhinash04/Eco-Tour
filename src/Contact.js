@@ -2,6 +2,7 @@ import React from "react";
 import globeimg from "./images/globeimg.png";
 import "./Contact.css";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const Contact = () => {
   return (
@@ -55,6 +56,7 @@ const Contact = () => {
           <img src={globeimg} alt="Globe" />
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
