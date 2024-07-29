@@ -1,33 +1,41 @@
 .home {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-  scroll-behavior: smooth;
-  font-family: "Roboto Slab", sans-serif;
+  position: relative;
+  width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
-    url("./images/Home.png");
-  background-size: cover;
-  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 25px;
+  overflow: hidden;
 }
 
-.home .content {
+.homeimg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
   text-align: center;
   color: white;
+  z-index: 1;
 }
 
-.home .content h5 {
+.content h5 {
   font-size: 38px;
   font-weight: 550;
   text-shadow: 0px 1px 1px black;
 }
 
-.home .content h1 {
+.content h5 span{
+  font-size: 50px;
+  font-weight: bolder;
+  color: #20ef11;
+  -webkit-text-stroke: 2px black;
+}
+
+.content h1 {
   font-size: 70px;
   font-weight: 550;
   text-shadow: 0px 1px 1px black;
@@ -42,81 +50,20 @@
 }
 
 @keyframes changetext {
-  0% {
-    content: "Kedarnath, Uttarakhand";
-  }
-  4.35% {
-    content: "Manali, Himachal Pradesh";
-  }
-  8.7% {
-    content: "Alleppey, Kerala";
-  }
-  13.04% {
-    content: "Amritsar, Punjab";
-  }
-  17.39% {
-    content: "Akshardham, Delhi";
-  }
-  21.74% {
-    content: "Charminar, Telangana";
-  }
-  26.09% {
-    content: "Hawa Mahal, Rajasthan";
-  }
-  30.43% {
-    content: "Puri, Odisha";
-  }
-  34.78% {
-    content: "Goa Beach, Goa";
-  }
-  39.13% {
-    content: "Taj Mahal, Uttar Pradesh";
-  }
-  43.48% {
-    content: "India Gate, Delhi";
-  }
-  47.83% {
-    content: "Kutch, Gujarat";
-  }
-  52.17% {
-    content: "Lotus Temple, Delhi";
-  }
-  56.52% {
-    content: "Ellora Caves, Maharashtra";
-  }
-  60.87% {
-    content: "Dal Lake, Jammu & Kashmir";
-  }
-  65.22% {
-    content: "Konark, Odisha";
-  }
-  69.57% {
-    content: "Rumtek, Sikkim";
-  }
-  73.91% {
-    content: "Rameswaram, Tamil Nadu";
-  }
-  78.26% {
-    content: "Kanyakumari, Tamil Nadu";
-  }
-  82.61% {
-    content: "Bodh Gaya, Bihar";
-  }
-  86.96% {
-    content: "Leh-Ladakh, Jammu & Kashmir";
-  }
-  91.3% {
-    content: "Mount Abu, Rajasthan";
-  }
-  95.65% {
-    content: "Nainital, Uttarakhand";
-  }
-  100% {
-    content: "Kedarnath, Uttarakhand";
-  } /* Loop back to the start for smooth transition */
+  0% { content: "Kedarnath, Uttarakhand"; }
+    10% { content: "Manali, Himachal Pradesh"; }
+    20% { content: "Alleppey, Kerala"; }
+    30% { content: "Amritsar, Punjab"; }
+    40% { content: "Akshardham, Delhi"; }
+    50% { content: "Charminar, Telangana"; }
+    60% { content: "Hawa Mahal, Rajasthan"; }
+    70% { content: "Puri, Odisha"; }
+    80% { content: "Goa Beach, Goa"; }
+    90% { content: "Taj Mahal, Uttar Pradesh"; }
+    100% { content: "Kedarnath, Uttarakhand"; }
 }
 
-.home .content p {
+.content p {
   font-size: 15px;
   font-weight: 600;
   text-shadow: 0px 1px 1px black;
@@ -124,7 +71,7 @@
   margin-top: 5px;
 }
 
-.home .content a {
+.content a {
   padding: 10px;
   background: white;
   color: black;
@@ -135,25 +82,25 @@
   transition: 0.5s;
 }
 
-.home .content a:hover {
+.content a:hover {
   background: #20ef11;
   color: white;
 }
 
 @media (max-width: 850px) {
   .home {
-    background-position: 50%;
+      background-position: 50%;
   }
 }
 
 @media (max-width: 450px) {
-  .home .content h5 {
-    font-size: 25px;
+  .content h5 {
+      font-size: 25px;
   }
-  .home .content h1 {
-    font-size: 38px;
+  .content h1 {
+      font-size: 38px;
   }
-  .home .content p {
-    font-size: 13px;
+  .content p {
+      font-size: 13px;
   }
 }

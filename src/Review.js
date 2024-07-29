@@ -1,64 +1,53 @@
 import React from 'react';
 import './review.css';
 import 'remixicon/fonts/remixicon.css';
-import testimonial1 from './images/testimonial1.jpg';
-import testimonial2 from './images/testimonial2.jpg';
-import testimonial3 from './images/testimonial3.jpg';
+
+const reviews = [
+  {
+      name: 'ALEX',
+      img: 'https://img.freepik.com/premium-photo/portrait-asian-businessman-wearing-suit-pulling-suitcase_466494-2815.jpg',
+      review: 'Eco-Tour offers exceptional service, providing well-organized and eco-friendly travel options. Their commitment to sustainability is commendable, and the personalized itineraries cater to diverse preferences. However, improvement is needed in customer support response times. Overall, it\'s a reliable choice for conscious travelers seeking memorable and environmentally responsible experiences.',
+      rating: 5
+  },
+  {
+      name: 'SUSAINE',
+      img: 'https://www.shutterstock.com/image-photo/portrait-beautiful-asian-girl-traveling-600nw-2287277435.jpg',
+      review: 'Eco-Tour offers exceptional service, providing well-organized and eco-friendly travel options. Their commitment to sustainability is commendable, and the personalized itineraries cater to diverse preferences. However, improvement is needed in customer support response times. Overall, it\'s a reliable choice for conscious travelers seeking memorable and environmentally responsible experiences.',
+      rating: 4
+  },
+  {
+      name: 'JESSICA',
+      img: 'https://img.freepik.com/premium-photo/asian-girl-traveling-image-isolated-blue-background_466494-1001.jpg',
+      review: 'Eco-Tour offers exceptional service, providing well-organized and eco-friendly travel options. Their commitment to sustainability is commendable, and the personalized itineraries cater to diverse preferences. However, improvement is needed in customer support response times. Overall, it\'s a reliable choice for conscious travelers seeking memorable and environmentally responsible experiences.',
+      rating: 3
+  },
+];
 
 const Review = () => {
   return (
-    <header className="rv-header">
-      <div className="rv-container">
-        <div className="rv-container__left">
-          <h1>Read what our users love about us.</h1>
-          <p>
-            Our eco-friendly travel helps reduce your carbon footprint by offering sustainable travel options and promotes local eco-friendly businesses, ensuring a greener and more responsible travel experience.
+      <div className="rev-container">
+          <h1 className="rev-title">Read what our users love about us.</h1>
+          <p className="rev-description">
+              Our eco-friendly travel helps reduce your carbon footprint by offering sustainable travel options and promotes local eco-friendly businesses, ensuring a greener and more responsible travel experience.
           </p>
-          <button>Read our success stories.</button>
-        </div>
-        <div className="rv-container__right">
-          <div className="rv-card">
-            <img src={testimonial1} alt="user" />
-            <div className="rv-card__content">
-              <span><i className="ri-double-quotes-l"></i></span>
-              <div className="rv-card__details">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, deserunt.
-                </p>
-                <h4>John</h4>
-              </div>
-            </div>
+          <div className="rev-cards">
+              {reviews.map((review, index) => (
+                  <div className="rev-card" key={index}>
+                      <img src={review.img} alt={`Image ${index + 1}`} />
+                      <div className="rev-intro">
+                          <h2>{review.name}</h2>
+                          <p>{review.review}</p>
+                          <div className="rev-star">
+                              {[...Array(5)].map((_, i) => (
+                                  <span key={i} className={`fa fa-star ${i < review.rating ? 'checked' : ''}`}></span>
+                              ))}
+                          </div>
+                      </div>
+                  </div>
+              ))}
           </div>
-
-          <div className="rv-card">
-            <img src={testimonial3} alt="user" />
-            <div className="rv-card__content">
-              <span><i className="ri-double-quotes-l"></i></span>
-              <div className="rv-card__details">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, deserunt.
-                </p>
-                <h4>Alex</h4>
-              </div>
-            </div>
-          </div>
-
-          <div className="rv-card">
-            <img src={testimonial2} alt="user" />
-            <div className="rv-card__content">
-              <span><i className="ri-double-quotes-l"></i></span>
-              <div className="rv-card__details">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, deserunt.
-                </p>
-                <h4>Jessica</h4>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-    </header>
   );
-}
+};
 
 export default Review;

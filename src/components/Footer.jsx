@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="fr-row">
                     <div className="fr-footer-col">
                         <h4 className="fr-footer-title">EcoTour</h4>
-                        <p className="fr-footer-text">Our vision is to promote sustainable travel by providing eco-friendly options and resources that minimize environmental impact and support local communities. We aim to inspire responsible tourism that benefits both travelers and the planet.</p>
+                        <p className="fr-footer-text"><b>Our vision is to promote sustainable travel by providing eco-friendly options and resources that minimize environmental impact and support local communities. We aim to inspire responsible tourism that benefits both travelers and the planet.</b></p>
                         <div className="fr-social-links">
                             <a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>
                             <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
@@ -21,9 +21,8 @@ const Footer = () => {
                     <div className="fr-footer-col">
                         <h4 className="fr-footer-title">Contact</h4>
                         <ul className="fr-footer-ul">
-                            <li className="fr-footer-li"><FontAwesomeIcon icon={faMapMarkerAlt} /> Odisha University of Technology and Research</li>
-                            <li className="fr-footer-li">Ghatikia, Kalinga Nagar, Bhubaneshwar</li>
-                            <li className="fr-footer-li"><FontAwesomeIcon icon={faPhoneAlt} /> +91 9937033445</li>
+                            <li className="fr-footer-li"><FontAwesomeIcon icon={faMapMarkerAlt} /> Bhubaneshwar, Odisha , India</li>
+                            <li className="fr-footer-li"><FontAwesomeIcon icon={faPhoneAlt} /> +91 9937XXXXXX</li>
                             <li className="fr-footer-li"><FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:ecotour2024@gmail.com">ecotour2024@gmail.com</a></li>
                         </ul>
                     </div>
