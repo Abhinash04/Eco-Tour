@@ -19,14 +19,16 @@ const reviews = [
       name: 'JESSICA',
       img: 'https://img.freepik.com/premium-photo/asian-girl-traveling-image-isolated-blue-background_466494-1001.jpg',
       review: 'Eco-Tour offers exceptional service, providing well-organized and eco-friendly travel options. Their commitment to sustainability is commendable, and the personalized itineraries cater to diverse preferences. However, improvement is needed in customer support response times. Overall, it\'s a reliable choice for conscious travelers seeking memorable and environmentally responsible experiences.',
-      rating: 3
+      rating: 4
   },
 ];
 
 const Review = () => {
   return (
       <div className="rev-container">
-          <h1 className="rev-title">Read what our users love about us.</h1>
+          <h1 className="rev-title">
+            READ WHAT OUR USERS <span className="rev-title-love">LOVE</span> ABOUT US
+            </h1>
           <p className="rev-description">
               Our eco-friendly travel helps reduce your carbon footprint by offering sustainable travel options and promotes local eco-friendly businesses, ensuring a greener and more responsible travel experience.
           </p>

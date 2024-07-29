@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
 .rev-container {
     width: 100vw;
     max-width: 100vw;
@@ -6,7 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background:  rgb(75, 241, 4);
+    background:  linear-gradient(135deg, #afc7b7, #fff);
     border-radius: 0;
     box-shadow: none;
     transition: background 0.5s ease;
@@ -17,22 +19,29 @@
     color: #333;
     text-align: center;
     margin-bottom: 20px;
-    font-family: Roboto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.rev-title-love {
+    color: rgb(75, 241, 4);
+    -webkit-text-stroke: 2px rgb(10, 66, 3);
 }
 
 .rev-description {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #333;
+    font-weight: 600;
     text-align: center;
     margin-bottom: 30px;
     max-width: 800px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .rev-cards {
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
-    /* overflow-x: auto; */
 }
 
 .rev-card {
@@ -85,14 +94,19 @@
 }
 
 .rev-intro h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(75, 241, 4);
+    -webkit-text-stroke: 1px rgb(10, 66, 3);
 }
 
 .rev-intro p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 10px 0 0;
     opacity: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     visibility: hidden;
     transition: opacity 0.5s, visibility 0.5s;
 }
@@ -134,7 +148,7 @@
     }
 
     .rev-card {
-        width: 100%;
+        width: 31%;
     }
 
     .rev-intro h2 {
@@ -142,7 +156,8 @@
     }
 
     .rev-intro p {
-        font-size: 0.9rem;
+        font-size: 0.75rem;
+        font-weight: 400;
     }
 }
 
@@ -160,11 +175,17 @@
         padding: 0 10px;
     }
 
+    .rev-card {
+        width: 75%;
+        margin-left: 35px;
+    }
+
     .rev-intro h2 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .rev-intro p {
         font-size: 0.8rem;
+        font-weight: 500;
     }
 }
