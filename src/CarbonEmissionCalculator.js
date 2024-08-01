@@ -22,7 +22,7 @@ const CarbonEmissionCalculator = () => {
 
   const fetchAddress = async (lat, lng) => {
     // Use a geocoding API to fetch the address
-    const response = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=AIzaSyDX9IuE_8dEwKQ7buASzbXRIr9jVDoRxZw`);
+    const response = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=YOUR_API_KEY`);
     const data = await response.json();
     if (data.results && data.results.length > 0) {
       setCurrentAddress(data.results[0].formatted_address);
