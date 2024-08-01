@@ -7,6 +7,7 @@ import Profile from './Profile';
 import Tips from './Tips';
 import Review from './Review';
 import Tour from './Tour';
+import CEC from './CarbonEmissionCalculator';
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
 import Toggle from './components/Toggle';
@@ -29,6 +30,7 @@ const App = () => {
                 <Route path="/review" element={<Review />} />
                 <Route path="/tour" element={<Tour />} />
                 <Route path="/profile" element={<Profile />} />
+                <Route path="/cec" element={<CEC />} />
                 <Route path="/signup" element={
                     <div className={`ap-container ${isActive ? 'active' : ''}`}>
                         <SignUp onToggle={toggleActive} />

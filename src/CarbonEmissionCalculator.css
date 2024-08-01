@@ -1,0 +1,67 @@
+.ce-body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.ce-form {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.ce-form-group {
+  margin-bottom: 15px;
+}
+
+.ce-form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.ce-input, .ce-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ce-button {
+  display: inline-block;
+  padding: auto;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.ce-button:hover {
+  background-color: #0056b3;
+}
+
+.ce-result {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #e9ffe9;
+}
+
+.ce-emission-factors {
+  margin-top: 20px;
+}
+
+.ce-emission-factors ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ce-emission-factors li {
+  margin-bottom: 5px;
+}
+
