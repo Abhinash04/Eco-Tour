@@ -1,0 +1,57 @@
+
+.fr-body {
+  font-family: "Outfit", sans-serif;
+  background-color: #f0f4f1;
+  color: #333;
+  padding: 20px;
+}
+
+.fr-main {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.fr-section {
+  margin-bottom: 30px;
+}
+
+.fr-section-title {
+  font-size: 1.5em;
+  color: #006400; /* Dark green color */
+  border-bottom: 2px solid #006400;
+  padding-bottom: 10px;
+}
+
+.fr-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fr-content h3 {
+  color: #006400;
+  margin-top: 0;
+}
+
+.fr-content ul {
+  padding-left: 20px;
+}
+
+.fr-btn {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: #006400;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fr-btn:hover {
+  background-color: #004d00;
+}

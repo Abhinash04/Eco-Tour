@@ -21,7 +21,7 @@ import Acc5 from "./Rishikesh/Accommodations.js";
 import SignUp from "./components/SignUp";
 import SignIn from "./components/SignIn";
 import Toggle from "./components/Toggle";
-
+import RoutePlanning from "./routeplanning";
 const App = () => {
   const [isActive, setIsActive] = useState(false);
 
@@ -52,6 +52,8 @@ const App = () => {
         <Route path="/acc4" element={<Acc4 />} />
         <Route path="/act5" element={<Act5 />} />
         <Route path="/acc5" element={<Acc5 />} />
+        <Route path="routeplanning" element={<RoutePlanning />} />
+
         <Route
           path="/signup"
           element={
