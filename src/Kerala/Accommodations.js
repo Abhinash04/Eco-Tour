@@ -37,7 +37,7 @@ const Accommodations = () => {
   };
   return (
     <div className="accommodations-container">
-      <h2>Accommodations</h2>
+      <h2>Accommodations in Kerala</h2>
       <div className="accommodation-row">
         {accommodations.map((accommodation, index) => (
           <div className="accommodation-card" key={index}>
