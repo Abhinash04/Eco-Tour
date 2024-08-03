@@ -18,10 +18,13 @@ import Act4 from "./Nainital/Activities.js";
 import Acc4 from "./Nainital/Accommodations.js";
 import Act5 from "./Rishikesh/Activities.js";
 import Acc5 from "./Rishikesh/Accommodations.js";
+import BookPlace from "./components/BookPlace.jsx";
+import EmissionResults from "./components/EmissionResults.jsx"
 import SignUp from "./components/SignUp";
 import SignIn from "./components/SignIn";
 import Toggle from "./components/Toggle";
 import RoutePlanning from "./routeplanning";
+
 const App = () => {
   const [isActive, setIsActive] = useState(false);
 
@@ -39,7 +42,6 @@ const App = () => {
         <Route path="/tour" element={<Tour />} />
         <Route path="/tips" element={<Tips />} />
         <Route path="/review" element={<Review />} />
-        <Route path="/tour" element={<Tour />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/cec" element={<CEC />} />
         <Route path="/act1" element={<Act1 />} />
@@ -52,7 +54,9 @@ const App = () => {
         <Route path="/acc4" element={<Acc4 />} />
         <Route path="/act5" element={<Act5 />} />
         <Route path="/acc5" element={<Acc5 />} />
-        <Route path="routeplanning" element={<RoutePlanning />} />
+        <Route path="/bookplace" element={<BookPlace />} />
+        <Route path="/EmissionResults" element={<EmissionResults />} />
+        <Route path="/routeplanning" element={<RoutePlanning />} />
 
         <Route
           path="/signup"

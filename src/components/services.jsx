@@ -53,7 +53,7 @@ const Services = () => {
             <div className="tour-card">
               <FontAwesomeIcon icon={faPlane} size="3x" style={{ color: 'rgb(75, 241, 4)', marginTop: '20px' }} />
               <div className="tour-card-body">
-                <h3>Fastest Travel</h3>
+                <h3>Route Planning</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
               </div>
             </div>

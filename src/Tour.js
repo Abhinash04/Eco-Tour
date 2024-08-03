@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Services from './components/services';
 import india from './images/india.png'
+import BookPlace from './components/BookPlace';
 
 const Tour = () => {
   return (
@@ -118,6 +119,7 @@ const Tour = () => {
         </SwiperSlide>
         </Swiper>
       </section>
+      <BookPlace/>
       <Services />
       <Footer/>
     </>

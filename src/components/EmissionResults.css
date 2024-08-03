@@ -1,0 +1,80 @@
+.res-body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+.res-main {
+    padding: 2rem;
+}
+
+.res-results {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 2rem auto;
+    text-align: auto;
+    transition: transform 0.3s;
+}
+
+.res-results:hover {
+    transform: translateY(-10px);
+}
+
+.res-results h1 {
+    margin-bottom: 1rem;
+    font-family: Algerian;
+    color: rgb(75, 241, 4);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+.res-results button {
+    border-radius: 4px;
+    background-color: #004d40;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.res-results button:hover {
+    background-color: #00796b;
+}
+
+.res-safe {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #c8e6c9;
+    color: #2e7d32;
+}
+
+.res-not-safe {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #ffcdd2;
+    color: #d32f2f;
+}
+
+.res-alternatives {
+    margin-top: 2rem;
+}
+
+.res-info {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.res-info h2 {
+    color: #004d40;
+}
+
+.res-info p {
+    margin-top: 0.5rem;
+    color: #616161;
+}

@@ -20,10 +20,10 @@ const Header = () => {
     return (
         <div className="pr1-body">
             <section id="header">
-                <a href="#"><img src={logo} alt="Logo" className="logo" /></a>
+                <a href="/"><img src={logo} alt="Logo" className="logo" /></a>
                 <div>
                     <ul id="navbar" className={isNavActive ? 'active' : ''}>
-                        <li><Link className={location.pathname === '/Home' ? 'active' : ''} to="/Home"><FontAwesomeIcon icon={faHome} /> Home</Link></li>
+                        <li><Link className={location.pathname === '/Home' ? 'active' : ''} to="/"><FontAwesomeIcon icon={faHome} /> Home</Link></li>
                         <li><Link className={location.pathname === '/About' ? 'active' : ''} to="/About"><FontAwesomeIcon icon={faInfoCircle} /> About Us</Link></li>
                         <li><Link className={location.pathname === '/Profile' ? 'active' : ''} to="/Profile"><FontAwesomeIcon icon={faUser} /> Profile</Link></li>
                         <li><Link className={location.pathname === '/Tour' ? 'active' : ''} to="/Tour"><FontAwesomeIcon icon={faSuitcase} /> Tour</Link></li>
