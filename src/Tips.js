@@ -1,93 +1,154 @@
-import React from "react";
+import React, { useState } from "react";
 import "./tips.css";
 
 const Tips = () => {
+  const [currentIndexes, setCurrentIndexes] = useState([0, 0, 0]);
+
+  const sliders = [
+    {
+      title: "REDUCE",
+      items: [
+        {
+          heading: "Travel Light",
+          description:
+            "Pack only what you need to minimize luggage weight and reduce fuel consumption during transport.",
+        },
+        {
+          heading: "Choose Direct Flights",
+          description:
+            "Opt for non-stop flights when possible to reduce the carbon footprint of your journey.",
+        },
+        {
+          heading: "Eco-Friendly Accommodation",
+          description:
+            "Stay in hotels and lodges that prioritize energy efficiency and sustainable practices.",
+        },
+      ],
+    },
+    {
+      title: "REUSE",
+      items: [
+        {
+          heading: "Bring Reusable Containers",
+          description:
+            "Carry your own water bottle and reusable utensils to cut down on single-use plastics.",
+        },
+        {
+          heading: "Use Eco-Friendly Bags",
+          description:
+            "Bring your own reusable shopping bags to reduce plastic waste while traveling.",
+        },
+        {
+          heading: "Opt for Refillable Toiletries",
+          description:
+            "Use refillable travel-sized containers for toiletries to minimize waste.",
+        },
+      ],
+    },
+    {
+      title: "RECYCLE",
+      items: [
+        {
+          heading: "Separate Waste",
+          description:
+            "Sort your waste into recycling bins and ensure you follow local recycling guidelines.",
+        },
+        {
+          heading: "Participate in Beach Cleanups",
+          description:
+            "Join local initiatives to clean up beaches and natural areas during your travels.",
+        },
+        {
+          heading: "Support Recycling Programs",
+          description:
+            "Choose destinations that have strong recycling programs and support their efforts.",
+        },
+      ],
+    },
+  ];
+
+  const handlePrevClick = (sectionIndex) => {
+    setCurrentIndexes((prevIndexes) => {
+      const newIndexes = [...prevIndexes];
+      const totalItems = sliders[sectionIndex].items.length;
+      newIndexes[sectionIndex] =
+        prevIndexes[sectionIndex] > 0
+          ? prevIndexes[sectionIndex] - 1
+          : totalItems - 1;
+      return newIndexes;
+    });
+  };
+
+  const handleNextClick = (sectionIndex) => {
+    setCurrentIndexes((prevIndexes) => {
+      const newIndexes = [...prevIndexes];
+      const totalItems = sliders[sectionIndex].items.length;
+      newIndexes[sectionIndex] =
+        prevIndexes[sectionIndex] < totalItems - 1
+          ? prevIndexes[sectionIndex] + 1
+          : 0;
+      return newIndexes;
+    });
+  };
+
   return (
     <div className="tips-body">
-      <main className="tips-main">
-        <h1 className="tips-heading1">EDUCATIONAL TIPS</h1>
+      <div className="tips-container">
+        <h1 className="tips-page-heading">EDUCATIONAL TIPS</h1>
 
-        <section className="tips-section" id="reduce">
-          <h2 className="tips-heading2">REDUCE</h2>
-          <div className="tips-card-container">
-            <div className="tips-card">
-              <h3 className="tips-heading3">Travel Light</h3>
-              <p className="tips-para">
-                Pack only what you need to minimize luggage weight and reduce
-                fuel consumption during transport.
-              </p>
-            </div>
-            <div className="tips-card">
-              <h3 className="tips-heading3">Choose Direct Flights</h3>
-              <p className="tips-para">
-                Opt for non-stop flights when possible to reduce the carbon
-                footprint of your journey.
-              </p>
-            </div>
-            <div className="tips-card">
-              <h3 className="tips-heading3">Eco-Friendly Accommodation</h3>
-              <p className="tips-para">
-                Stay in hotels and lodges that prioritize energy efficiency and
-                sustainable practices.
-              </p>
+        {sliders.map((slider, sliderIndex) => (
+          <div className="tips-slider-section" key={sliderIndex}>
+            <h2 className="tips-h2">{slider.title}</h2>
+            <div className="tips-slider">
+              {slider.items.map((item, itemIndex) => (
+                <div
+                  key={itemIndex}
+                  className={`tips-item ${
+                    itemIndex === currentIndexes[sliderIndex]
+                      ? "tips-item-active"
+                      : ""
+                  }`}
+                  style={{
+                    left:
+                      itemIndex ===
+                      (currentIndexes[sliderIndex] - 1 + slider.items.length) %
+                        slider.items.length
+                        ? "calc(50% - 150px)"
+                        : itemIndex === currentIndexes[sliderIndex]
+                        ? "50%"
+                        : itemIndex ===
+                          (currentIndexes[sliderIndex] + 1) %
+                            slider.items.length
+                        ? "calc(50% + 150px)"
+                        : "50%",
+                    zIndex: itemIndex === currentIndexes[sliderIndex] ? 1 : 0,
+                    transform: `translate(-50%, -50%) scale(${
+                      itemIndex === currentIndexes[sliderIndex] ? "1" : "0.8"
+                    })`,
+                    opacity:
+                      itemIndex === currentIndexes[sliderIndex] ? 1 : 0.7,
+                  }}
+                >
+                  <h3 className="tips-h3">{item.heading}</h3>
+                  <p className="tips-para">{item.description}</p>
+                </div>
+              ))}
+              <button
+                className="tips-prev"
+                onClick={() => handlePrevClick(sliderIndex)}
+              >
+                ❮
+              </button>
+              <button
+                className="tips-next"
+                onClick={() => handleNextClick(sliderIndex)}
+              >
+                ❯
+              </button>
             </div>
           </div>
-        </section>
-
-        <section className="tips-section" id="reuse">
-          <h2 className="tips-heading2">REUSE</h2>
-          <div className="tips-card-container">
-            <div className="tips-card">
-              <h3 className="tips-heading3">Bring Reusable Containers</h3>
-              <p className="tips-para">
-                Carry your own water bottle and reusable utensils to cut down on
-                single-use plastics.
-              </p>
-            </div>
-            <div className="tips-card">
-              <h3 className="tips-heading3">Use Eco-Friendly Bags</h3>
-              <p className="tips-para">
-                Bring your own reusable shopping bags to reduce plastic waste
-                while traveling.
-              </p>
-            </div>
-            <div className="tips-card">
-              <h3 className="tips-heading3">Opt for Refillable Toiletries</h3>
-              <p className="tips-para">
-                Use refillable travel-sized containers for toiletries to
-                minimize waste.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="tips-section" id="recycle">
-          <h2 className="tips-heading2">RECYCLE</h2>
-          <div className="tips-card-container">
-            <div className="tips-card">
-              <h3 className="tips-heading3">Separate Waste</h3>
-              <p className="tips-para">
-                Sort your waste into recycling bins and ensure you follow local
-                recycling guidelines.
-              </p>
-            </div>
-            <div className="tips-card">
-              <h3 className="tips-heading3">Participate in Beach Cleanups</h3>
-              <p className="tips-para">
-                Join local initiatives to clean up beaches and natural areas
-                during your travels.
-              </p>
-            </div>
-            <div className="tips-card">
-              <h3 className="tips-heading3">Support Recycling Programs</h3>
-              <p className="tips-para">
-                Choose destinations that have strong recycling programs and
-                support their efforts.
-              </p>
-            </div>
-          </div>
-        </section>
-      </main>
+        ))}
+      </div>
     </div>
   );
 };
