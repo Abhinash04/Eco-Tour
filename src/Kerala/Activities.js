@@ -50,8 +50,8 @@ const Activities = () => {
   return (
     
     <div className="activities-container">
-      <h1>KERALA</h1>
-      <h2>Activities</h2>
+ 
+      <h2>Activities in Kerala</h2>
       <div className="activity-row">
         {activities.slice(0, 3).map((activity, index) => (
           <div className="activity-card" key={index}>
