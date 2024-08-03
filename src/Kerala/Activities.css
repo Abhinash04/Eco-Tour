@@ -1,6 +1,8 @@
 .activities-container {
   padding: 20px;
-  text-align: left; /* Align text to the left */
+  text-align: center;
+  /* Align text to the left */
+  font-size: 2em;
 }
 
 .activities-container h2 {
@@ -10,6 +12,8 @@
   font-size: 2em;
   margin-bottom: 20px;
   margin-left: 20px; /* Add left margin */
+   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .activity-card {
