@@ -1,0 +1,68 @@
+.activities-container {
+  padding: 20px;
+  text-align: center; /* Align text to the left */
+   font-size: 2rem;
+}
+
+.activities-container h2 {
+  color: green;
+  text-decoration: underline;
+  text-decoration-thickness: 4px; /* Thick underline */
+ text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-left: 20px; /* Add left margin */
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.activity-card {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  margin: 20px; /* Increase padding between images */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.activity-card img {
+  width: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.activity-card .description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.activity-card:hover {
+  transform: scale(1.05);
+}
+
+.activity-card:hover img {
+  opacity: 0.3;
+}
+
+.activity-card:hover .description {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .activity-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .activity-card {
+    width: 90%;
+  }
+}

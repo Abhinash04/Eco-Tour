@@ -1,9 +1,16 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHotel, faUtensils, faBullhorn, faGlobeAsia, faPlane, faHiking } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
+import { faHotel, faPlane, faHiking } from '@fortawesome/free-solid-svg-icons';
+// import { faUtensils, faBullhorn, faGlobeAsia } from '@fortawesome/free-solid-svg-icons';
 import './services.css';
 
 const Services = () => {
+  const navigate = useNavigate();
+  const handleNavigate = (path) => {
+    navigate(path);
+  };
+
   return (
     <section className="tour-services" id="services">
       <div className="tour-container">
@@ -11,16 +18,16 @@ const Services = () => {
           <h1><span>Services</span></h1>
         </div>
         <div className="tour-row" style={{ marginTop: '30px' }}>
-          <div className="tour-col-md-4 tour-py-3 tour-py-md-0">
+          <div className="tour-col-md-4 tour-py-3 tour-py-md-0" onClick={() => handleNavigate('/greenaccomodation')}>
             <div className="tour-card">
               <FontAwesomeIcon icon={faHotel} size="3x" style={{ color: 'rgb(75, 241, 4)', marginTop: '20px' }} />
               <div className="tour-card-body">
-                <h3>Affordable Hotel</h3>
+                <h3>Green Accommodation</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
               </div>
             </div>
           </div>
-          <div className="tour-col-md-4 tour-py-3 tour-py-md-0">
+          {/* <div className="tour-col-md-4 tour-py-3 tour-py-md-0">
             <div className="tour-card">
               <FontAwesomeIcon icon={faUtensils} size="3x" style={{ color: 'rgb(75, 241, 4)', marginTop: '20px' }} />
               <div className="tour-card-body">
@@ -48,8 +55,8 @@ const Services = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
               </div>
             </div>
-          </div>
-          <div className="tour-col-md-4 tour-py-3 tour-py-md-0">
+          </div> */}
+          <div className="tour-col-md-4 tour-py-3 tour-py-md-0" onClick={() => handleNavigate('/routeplanning')} >
             <div className="tour-card">
               <FontAwesomeIcon icon={faPlane} size="3x" style={{ color: 'rgb(75, 241, 4)', marginTop: '20px' }} />
               <div className="tour-card-body">
@@ -58,7 +65,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="tour-col-md-4 tour-py-3 tour-py-md-0">
+          <div className="tour-col-md-4 tour-py-3 tour-py-md-0" onClick={() => handleNavigate('/Adventures')}>
             <div className="tour-card">
               <FontAwesomeIcon icon={faHiking} size="3x" style={{ color: 'rgb(75, 241, 4)', marginTop: '20px' }} />
               <div className="tour-card-body">

@@ -1,0 +1,86 @@
+.accommodations-container {
+  padding: 20px;
+  text-align: center; /* Align text to the left */
+   font-size: 2rem;
+}
+
+.accommodations-container h2 {
+  color: green;
+  text-decoration: underline;
+  text-decoration-thickness: 4px; /* Thick underline */
+  margin-bottom: 20px;
+   font-size: 2rem;
+  margin-left: 20px; /* Add left margin */
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+}
+
+.accommodation-card {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  margin: 20px; /* Increase padding between images */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.accommodation-card img {
+  width: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.accommodation-card .description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.accommodation-card:hover {
+  transform: scale(1.05);
+}
+
+.accommodation-card:hover img {
+  opacity: 0.3;
+}
+
+.accommodation-card:hover .description {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .accommodation-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .accommodation-card {
+    width: 90%;
+  }
+}
+
+.view-tour-button {
+  display: block;
+  background-color: green;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px auto 0; /* Center the button with auto margin */
+  text-align: center;
+}
+
+.view-tour-button:hover {
+  background-color: darkgreen;
+}
