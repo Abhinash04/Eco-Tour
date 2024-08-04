@@ -94,62 +94,64 @@ const Tips = () => {
   };
 
   return (
-    <div className="tips-body">
-      <div className="tips-container">
-        <h1 className="tips-page-heading">EDUCATIONAL TIPS</h1>
+    <div className='tips-page'>
+      <div className="tips-body">
+        <div className="tips-container">
+          <h1 className="tips-page-heading">EDUCATIONAL TIPS</h1>
 
-        {sliders.map((slider, sliderIndex) => (
-          <div className="tips-slider-section" key={sliderIndex}>
-            <h2 className="tips-h2">{slider.title}</h2>
-            <div className="tips-slider">
-              {slider.items.map((item, itemIndex) => (
-                <div
-                  key={itemIndex}
-                  className={`tips-item ${
-                    itemIndex === currentIndexes[sliderIndex]
-                      ? "tips-item-active"
-                      : ""
-                  }`}
-                  style={{
-                    left:
-                      itemIndex ===
-                      (currentIndexes[sliderIndex] - 1 + slider.items.length) %
-                        slider.items.length
-                        ? "calc(50% - 150px)"
-                        : itemIndex === currentIndexes[sliderIndex]
-                        ? "50%"
-                        : itemIndex ===
-                          (currentIndexes[sliderIndex] + 1) %
-                            slider.items.length
-                        ? "calc(50% + 150px)"
-                        : "50%",
-                    zIndex: itemIndex === currentIndexes[sliderIndex] ? 1 : 0,
-                    transform: `translate(-50%, -50%) scale(${
-                      itemIndex === currentIndexes[sliderIndex] ? "1" : "0.8"
-                    })`,
-                    opacity:
-                      itemIndex === currentIndexes[sliderIndex] ? 1 : 0.7,
-                  }}
+          {sliders.map((slider, sliderIndex) => (
+            <div className="tips-slider-section" key={sliderIndex}>
+              <h2 className="tips-h2">{slider.title}</h2>
+              <div className="tips-slider">
+                {slider.items.map((item, itemIndex) => (
+                  <div
+                    key={itemIndex}
+                    className={`tips-item ${
+                      itemIndex === currentIndexes[sliderIndex]
+                        ? "tips-item-active"
+                        : ""
+                    }`}
+                    style={{
+                      left:
+                        itemIndex ===
+                        (currentIndexes[sliderIndex] - 1 + slider.items.length) %
+                          slider.items.length
+                          ? "calc(50% - 150px)"
+                          : itemIndex === currentIndexes[sliderIndex]
+                          ? "50%"
+                          : itemIndex ===
+                            (currentIndexes[sliderIndex] + 1) %
+                              slider.items.length
+                          ? "calc(50% + 150px)"
+                          : "50%",
+                      zIndex: itemIndex === currentIndexes[sliderIndex] ? 1 : 0,
+                      transform: `translate(-50%, -50%) scale(${
+                        itemIndex === currentIndexes[sliderIndex] ? "1" : "0.8"
+                      })`,
+                      opacity:
+                        itemIndex === currentIndexes[sliderIndex] ? 1 : 0.7,
+                    }}
+                  >
+                    <h3 className="tips-h3">{item.heading}</h3>
+                    <p className="tips-para">{item.description}</p>
+                  </div>
+                ))}
+                <button
+                  className="tips-prev"
+                  onClick={() => handlePrevClick(sliderIndex)}
                 >
-                  <h3 className="tips-h3">{item.heading}</h3>
-                  <p className="tips-para">{item.description}</p>
-                </div>
-              ))}
-              <button
-                className="tips-prev"
-                onClick={() => handlePrevClick(sliderIndex)}
-              >
-                <FontAwesomeIcon icon={faArrowLeft} />
-              </button>
-              <button
-                className="tips-next"
-                onClick={() => handleNextClick(sliderIndex)}
-              >
-                <FontAwesomeIcon icon={faArrowRight} />
-              </button>
+                  <FontAwesomeIcon icon={faArrowLeft} />
+                </button>
+                <button
+                  className="tips-next"
+                  onClick={() => handleNextClick(sliderIndex)}
+                >
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </button>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

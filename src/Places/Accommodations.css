@@ -5,9 +5,6 @@
   padding: 20px;
 }
 
-
-
-
 .accommodations-container {
   padding: 40px;
   text-align: center; 
@@ -92,7 +89,7 @@
   }
 }
 
-.view-tour-button {
+/* .view-tour-button {
   display: block;
   background-color: green;
   color: white;
@@ -108,4 +105,4 @@
 
 .view-tour-button:hover {
   background-color: darkgreen;
-}
+} */

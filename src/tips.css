@@ -1,11 +1,18 @@
+.tips-page{
+  background-image: url('./Places/back1.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  z-index: -1;
+}
+
 .tips-body {
-  background-image: linear-gradient(135deg, #afc7b7, #fff);
   min-height: 100vh;
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Outfit", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .tips-container {
@@ -19,9 +26,10 @@
   text-align: center;
   color: rgb(75, 241, 4);
   margin-bottom: 40px;
-  font-size: 3.5em;
+  border-bottom: 1px solid green;
+  font-size:4vw;
   font-family: "Algerian";
-  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  -webkit-text-stroke: 1.5px rgb(0, 0, 0);
 }
 
 .tips-slider-section {
@@ -31,9 +39,9 @@
 
 .tips-slider-section h2 {
   text-align: center;
-  color: #34b341;
+  color: rgb(75, 241, 4);
   margin-bottom: 20px;
-  font-size: 2.5em;
+  font-size: 3em;
   font-family: "Algerian";
   -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
@@ -51,7 +59,7 @@
 .tips-item {
   width: 300px;
   height: 320px;
-  background-color: #429242;
+  background-color: #228B22;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -59,8 +67,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.8);
-  transition: transform 0.5s ease, opacity 0.5s ease, z-index 0.5s ease,
-    left 0.5s ease;
+  transition: transform 0.5s ease, opacity 0.5s ease, z-index 0.5s ease, left 0.5s ease;
   z-index: 0;
   opacity: 0.7;
 }
@@ -101,10 +108,9 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
   .tips-item {
-    width: 80%;
+    width: 45%;
   }
 
   .tips-prev,
@@ -114,17 +120,28 @@
   }
 
   .tips-slider-section h2 {
-    font-size: 2em;
+    font-size: 3rem;
   }
 
   .tips-page-heading {
-    font-size: 3em;
+    font-size: 3.5rem;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 430px) {
+
+  .tips-body {
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+  }
+
   .tips-item {
-    width: 100%;
+    width: 60%;
+    height: 60%;
   }
 
   .tips-prev,
@@ -134,22 +151,22 @@
   }
 
   .tips-slider-section h2 {
-    font-size: 1.5em;
+    font-size: 2rem;
   }
 
   .tips-page-heading {
-    font-size: 1.75em;
+    font-size: 2.25rem;
   }
 }
 
 .tips-h3 {
-  font-size: 2em;
-  font-family: "Rolling Beat";
+  font-size: 1.5rem;
+  font-family: "Algerian";
   color: #fff;
 }
 
 .tips-para {
   color: #fff;
-  font-size: 1.2em;
-  font-family: "Sans Serif";
+  font-size: 1rem;
+  font-family: "Roboto";
 }

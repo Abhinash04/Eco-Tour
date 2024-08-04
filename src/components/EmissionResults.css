@@ -17,9 +17,10 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 1200px;
     margin: 2rem auto;
-    text-align: auto;
-    transition: transform 0.3s;
+    text-align: center;
 }
+  
+
 
 .res-results:hover {
     transform: translateY(-10px);
@@ -32,17 +33,22 @@
     -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 
-.res-results button {
-    border-radius: 4px;
-    background-color: #004d40;
+.res-results .res-btn {
+    display: block;
+    background-color: green;
     color: white;
-    font-size: 2rem;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    font-size: 16px;
+    margin: 20px auto 0;
+    text-align: center;
 }
 
-.res-results button:hover {
-    background-color: #00796b;
+.res-results .res-btn:hover {
+    background-color: darkgreen; 
 }
 
 .res-safe {
@@ -50,7 +56,7 @@
     padding: 1rem;
     border-radius: 8px;
     background-color: #c8e6c9;
-    color: #2e7d32;
+    color: green;
 }
 
 .res-not-safe {
@@ -58,11 +64,15 @@
     padding: 1rem;
     border-radius: 8px;
     background-color: #ffcdd2;
-    color: #d32f2f;
+    color: red;
 }
 
 .res-alternatives {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: lightgoldenrodyellow;
+    color: orange;
 }
 
 .res-info {
@@ -70,8 +80,9 @@
     text-align: left;
 }
 
-.res-info h2 {
+.res-info h3 {
     color: #004d40;
+    margin-top: 1rem;
 }
 
 .res-info p {

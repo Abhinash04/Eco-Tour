@@ -72,7 +72,7 @@ const BookPlace = () => {
                     <label htmlFor="passengers">NUMBER OF PASSENGERS:</label>
                     <input type="number" id="passengers" name="passengers" min="1" defaultValue="1" />
 
-                    <button type="submit">Plan My Eco Tour</button>
+                    <button type="submit" className='bp-btn'>Plan My Eco Tour</button>
                 </form>
             </section>
         </main>

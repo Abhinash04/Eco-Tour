@@ -53,7 +53,7 @@ const Activities = () => {
   const navigateToTour = () => {
     navigate('/tour');
   };
-  
+
   return (
     <div className='page'>
     <div className="activities-container">
@@ -81,7 +81,7 @@ const Activities = () => {
           </div>
         ))}
       </div>
-      <button onClick={navigateToTour} className="navigate-button">
+        <button onClick={navigateToTour} className="navigate-button">
           Go to Tour
         </button>
     </div>
