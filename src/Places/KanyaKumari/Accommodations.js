@@ -1,5 +1,5 @@
 import React from 'react';
-import './Accommodations.css';
+import '../Accommodations.css';
 import seaviewImg from './seaview.jpg';
 import sunworldImg from './sunworld.jpg';
 import  gopinivasgrandImg from './gopinivasgrand.jpg';

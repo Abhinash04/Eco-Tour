@@ -1,5 +1,5 @@
 import React from 'react';
-import './Activities.css';
+import '../Activities.css';
 import nainaImg from './Naina_devi.jpg';
 import marketImg from './market.jpg';
 import snowImg from './snow.jpg';

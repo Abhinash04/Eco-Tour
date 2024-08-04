@@ -1,5 +1,5 @@
 import React from 'react';
-import './Activities.css';
+import '../Activities.css';
 import rockmemorialImg from './rockmemorial.jpg';
 import sunsetImg from './sunset.jpg';
 import templeImg from './temple.jpg';

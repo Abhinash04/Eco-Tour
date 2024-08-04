@@ -1,5 +1,5 @@
 import React from 'react';
-import './Activities.css';
+import '../Activities.css';
 import trekkingImg from './trekking.webp';
 import raftingImg from './river.jpg';
 import bungeeImg from './bungee.jpeg';

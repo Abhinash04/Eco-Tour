@@ -1,7 +1,14 @@
 import React from "react";
 import "./routeplanning.css";
+import { useNavigate } from 'react-router-dom';
 
 const RoutePlanning = () => {
+
+  const navigate = useNavigate();
+  const handleNavigate = (path) => {
+    navigate(path);
+  };
+
   return (
     <div className="fr-body">
       {/* Kanyakumari Section */}
@@ -427,7 +434,7 @@ const RoutePlanning = () => {
       </main>
       <section className="fr-section">
         <div className="fr-content">
-          <button id="view-activities-btn" className="fr-btn">
+          <button id="view-activities-btn" className="fr-btn" onClick={() => handleNavigate('/adventures')}>
             View Activities and Accommodations
           </button>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Activities.css';
+import '../Activities.css';
 import backwatersImg from './backwaters.jpg';
 import teatourImg from './teatour.jpg';
 import spaImg from './spa.jpg';

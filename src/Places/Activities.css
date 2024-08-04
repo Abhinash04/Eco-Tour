@@ -1,25 +1,26 @@
 .activities-container {
   padding: 20px;
-  text-align: center; /* Align text to the left */
+  text-align: center; 
    font-size: 2rem;
 }
 
 .activities-container h2 {
-  color: green;
   text-decoration: underline;
-  text-decoration-thickness: 4px; /* Thick underline */
-  font-size: 2rem;
+  text-decoration-thickness: 4px; 
   margin-bottom: 20px;
-  margin-left: 20px; /* Add left margin */
-   text-align: center;
-   font-family: 'Times New Roman', Times, serif;
+  margin-left: 20px; 
+  text-align: center;
+  font-size: 3em;
+  font-family: "Algerian";
+  -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+  color: rgb(75, 241, 4);
 }
 
 .activity-card {
   position: relative;
   display: inline-block;
   width: 30%;
-  margin: 20px; /* Increase padding between images */
+  margin: 20px; 
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

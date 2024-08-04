@@ -1,5 +1,5 @@
 import React from 'react';
-import './Activities.css';
+import '../Activities.css';
 import marketImg from './market.jpeg';
 import trekImg from './trek.jpeg';
 import waterfallImg from './waterfall.jpeg';

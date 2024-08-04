@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import "./tips.css";
 
 const Tips = () => {
@@ -137,13 +139,13 @@ const Tips = () => {
                 className="tips-prev"
                 onClick={() => handlePrevClick(sliderIndex)}
               >
-                ❮
+                <FontAwesomeIcon icon={faArrowLeft} />
               </button>
               <button
                 className="tips-next"
                 onClick={() => handleNextClick(sliderIndex)}
               >
-                ❯
+                <FontAwesomeIcon icon={faArrowRight} />
               </button>
             </div>
           </div>

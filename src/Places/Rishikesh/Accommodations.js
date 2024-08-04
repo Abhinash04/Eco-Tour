@@ -1,5 +1,5 @@
 import React from 'react';
-import './Accommodations.css';
+import '../Accommodations.css';
 import alohaImg from './aloha.avif';
 import glasshouseImg from './The Glasshouse on the Ganges.avif';
 import gangaKinareImg from './Ganga Kinare.jpg';

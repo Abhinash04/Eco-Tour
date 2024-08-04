@@ -1,5 +1,5 @@
 import React from 'react';
-import './Accommodations.css';
+import '../Accommodations.css';
 import marariImg from './marari.jpg';
 import rainforestbotiqueImg from './rainforestbotique.jpg';
 import  banasurahillresortImg from './banasurahillresort.jpg';

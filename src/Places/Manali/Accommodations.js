@@ -1,5 +1,5 @@
 import React from 'react';
-import './Accommodations.css';
+import '../Accommodations.css';
 import hotel1 from './hotel1.jpeg';
 import botiqueImg from './hotel2.jpeg';
 import  resortImg from './hotel3.jpeg';
