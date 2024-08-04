@@ -81,9 +81,7 @@ const Activities = () => {
           </div>
         ))}
       </div>
-      <button onClick={navigateToTour} className="navigate-button">
-          Go to Tour
-        </button>
+     <button className="view-tour-button" onClick={navigateToTour}>View Tour Page</button>
     </div>
     </div>
   );
