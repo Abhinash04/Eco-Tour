@@ -36,6 +36,7 @@ const Accommodations = () => {
     navigate('/tour');
   };
   return (
+    <div className='page'>
     <div className="accommodations-container">
       <h2>Accommodations in Manali</h2>
       <div className="accommodation-row">
@@ -49,10 +50,12 @@ const Accommodations = () => {
           </div>
         ))}
       </div>
-      <button className="view-tour-button" onClick={navigateToTour}>View Tour Page</button>
+     
+    </div>
     </div>
   );
 };
 
 export default Accommodations;
+
 
