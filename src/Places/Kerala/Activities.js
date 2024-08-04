@@ -48,7 +48,7 @@ const activities = [
 
 const Activities = () => {
   return (
-    <div className=""page>
+    <div className="page">
     <div className="activities-container">
  
       <h2>Activities in Kerala</h2>
