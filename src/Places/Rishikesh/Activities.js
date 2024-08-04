@@ -36,7 +36,7 @@ const activities = [
     imgSrc: gangaAartiImg,
     alt: "Ganga Aarti at Triveni Ghat",
     title: "Ganga Aarti at Triveni Ghat",
-    description: "Witness the mesmerizing evening Ganga Aarti, a spiritual ritual involving the lighting of lamps and chanting, held on the banks of the river.",
+    description: "Witness the mesmerizing evening Ganga Aarti, involving the lighting of lamps and chanting, held on the banks of the river.",
   },
   {
     imgSrc: rockClimbingImg,
