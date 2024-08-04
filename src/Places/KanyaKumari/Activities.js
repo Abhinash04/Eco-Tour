@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../Activities.css';
 import rockmemorialImg from './rockmemorial.jpg';
 import sunsetImg from './sunset.jpg';
@@ -46,33 +47,34 @@ const activities = [
   },
 ];
 
-const Accommodations = () => {
+const Activities = () => {
   const navigate = useNavigate();
 
   const navigateToTour = () => {
     navigate('/tour');
   };
+
   return (
     <div className='page'>
-    <div className="accommodations-container">
-      <h2>Accommodations in Kerala</h2>
-      <div className="accommodation-row">
-        {accommodations.map((accommodation, index) => (
-          <div className="accommodation-card" key={index}>
-            <img src={accommodation.imgSrc} alt={accommodation.alt} />
-            <div className="description">
-              <h3>{accommodation.title}</h3>
-              <p>{accommodation.description}</p>
+      <div className="activities-container">
+        <h2>Activities in Kanyakumari</h2>
+        <div className="activity-row">
+          {activities.map((activity, index) => (
+            <div className="activity-card" key={index}>
+              <img src={activity.imgSrc} alt={activity.alt} />
+              <div className="description">
+                <h3>{activity.title}</h3>
+                <p>{activity.description}</p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
+        {/* <button onClick={navigateToTour} className="navigate-button">
+          Go to Tour
+        </button> */}
       </div>
-     
-    </div>
     </div>
   );
 };
-   
-
 
 export default Activities;

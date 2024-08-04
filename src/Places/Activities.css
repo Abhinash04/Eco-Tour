@@ -1,13 +1,9 @@
 .page{
-  background-image: url('back2.jpg');
+  background-image: url('back1.jpg');
   background-size: cover;
   background-position: center;
   padding: 20px;
 }
-
-
-
-
 
 .activities-container {
   padding: 40px;

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Activities.css';
+import { useNavigate } from 'react-router-dom';
 import trekkingImg from './trekking.webp';
 import raftingImg from './river.jpg';
 import bungeeImg from './bungee.jpeg';
@@ -47,6 +48,12 @@ const activities = [
 ];
 
 const Activities = () => {
+  const navigate = useNavigate();
+
+  const navigateToTour = () => {
+    navigate('/tour');
+  };
+  
   return (
     <div className='page'>
     <div className="activities-container">
@@ -74,6 +81,9 @@ const Activities = () => {
           </div>
         ))}
       </div>
+      <button onClick={navigateToTour} className="navigate-button">
+          Go to Tour
+        </button>
     </div>
     </div>
   );

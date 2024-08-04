@@ -11,15 +11,12 @@ const accommodations = [
     alt: "Hotel Green Tara",
     title: "Hotel Green Tara",
     description: "Eco-friendly beach resort with traditional cottages and pristine beachfront setting.-40000INR",
-    
   },
   {
     imgSrc: botiqueImg,
     alt: "The Orchard Green",
     title: "The Orchard Green",
     description: " Offering serene rainforest views and unique treetop dining experience.-3000INR ",
-   
-   
   },
   {
     imgSrc: resortImg,
@@ -50,7 +47,6 @@ const Accommodations = () => {
           </div>
         ))}
       </div>
-     
     </div>
     </div>
   );

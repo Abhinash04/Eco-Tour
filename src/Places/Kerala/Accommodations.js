@@ -49,7 +49,7 @@ const Accommodations = () => {
           </div>
         ))}
       </div>
-      <button className="view-tour-button" onClick={navigateToTour}>View Tour Page</button>
+      {/* <button className="view-tour-button" onClick={navigateToTour}>View Tour Page</button> */}
     </div>
   );
 };
