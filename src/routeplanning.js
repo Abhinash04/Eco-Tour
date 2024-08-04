@@ -346,7 +346,7 @@ const RoutePlanning = () => {
             className="fr-btn"
             onClick={() => handleNavigate("/adventures")}
           >
-            View Activities and Accommodations
+            View Activities
           </button>
         </div>
         ;
