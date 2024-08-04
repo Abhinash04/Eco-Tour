@@ -46,39 +46,33 @@ const activities = [
   },
 ];
 
-const Activities = () => {
+const Accommodations = () => {
+  const navigate = useNavigate();
+
+  const navigateToTour = () => {
+    navigate('/tour');
+  };
   return (
     <div className='page'>
-    <div className="activities-container">
-      
-      <h2>Activities in Kanyakumari</h2>
-      <div className="activity-row">
-        {activities.slice(0, 3).map((activity, index) => (
-          <div className="activity-card" key={index}>
-            <img src={activity.imgSrc} alt={activity.alt} />
+    <div className="accommodations-container">
+      <h2>Accommodations in Kerala</h2>
+      <div className="accommodation-row">
+        {accommodations.map((accommodation, index) => (
+          <div className="accommodation-card" key={index}>
+            <img src={accommodation.imgSrc} alt={accommodation.alt} />
             <div className="description">
-              <h3>{activity.title}</h3>
-              <p>{activity.description}</p>
+              <h3>{accommodation.title}</h3>
+              <p>{accommodation.description}</p>
             </div>
           </div>
         ))}
       </div>
-      <div className="activity-row">
-        {activities.slice(3).map((activity, index) => (
-          <div className="activity-card" key={index}>
-            <img src={activity.imgSrc} alt={activity.alt} />
-            <div className="description">
-              <h3>{activity.title}</h3>
-              <p>{activity.description}</p>
-            </div>
-          </div>
-        ))}
-      </div>
+     
     </div>
     </div>
   );
 };
-
+   
 
 
 export default Activities;
