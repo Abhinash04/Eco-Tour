@@ -29,13 +29,15 @@ const accommodations = [
   },
 ];
 
-const Accommodations = () => {
+
+  const Accommodations = () => {
   const navigate = useNavigate();
 
   const navigateToTour = () => {
     navigate('/tour');
   };
   return (
+    <div className='page'>
     <div className="accommodations-container">
       <h2>Accommodations in Nainital</h2>
       <div className="accommodation-row">
@@ -49,7 +51,8 @@ const Accommodations = () => {
           </div>
         ))}
       </div>
-      <button className="view-tour-button" onClick={navigateToTour}>View Tour Page</button>
+     
+    </div>
     </div>
   );
 };
