@@ -49,7 +49,7 @@ const activities = [
 
 const Activities = () => {
   return (
-    
+    <div className='page'>
     <div className="activities-container">
       <h1></h1>
       <h2>Activities in Nainital</h2>
@@ -75,6 +75,7 @@ const Activities = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };
