@@ -1,9 +1,8 @@
 import React from "react";
 import "./routeplanning.css";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 const RoutePlanning = () => {
-
   const navigate = useNavigate();
   const handleNavigate = (path) => {
     navigate(path);
@@ -11,14 +10,14 @@ const RoutePlanning = () => {
 
   return (
     <div className="fr-body">
-      {/* Kanyakumari Section */}
       <main className="fr-main">
+        {/* Section for Kanyakumari */}
         <section className="fr-section">
           <h2 className="fr-section-title">
-            Public Transport Services in Kanyakumari
+            PUBLIC TRANSPORT SERVICES IN KANYAKUMARI
           </h2>
           <div className="fr-content">
-            <h3>Buses</h3>
+            <h3>BUS SERVICES</h3>
             <p>
               <strong>Tamil Nadu State Transport Corporation (TNSTC):</strong>
             </p>
@@ -54,8 +53,7 @@ const RoutePlanning = () => {
                 tourist spots.
               </li>
             </ul>
-
-            <h3>Trains</h3>
+            <h3>TRAIN SERVICES</h3>
             <p>
               <strong>Kanyakumari Railway Station</strong>
             </p>
@@ -76,8 +74,7 @@ const RoutePlanning = () => {
                 Trivandrum and Kanyakumari.
               </li>
             </ul>
-
-            <h3>Taxis and Auto Rickshaws</h3>
+            <h3>TAXI AND AUTORICKSHAW SERVICES</h3>
             <ul>
               <li>
                 Availability: Readily available outside hotels, bus stops, and
@@ -90,58 +87,13 @@ const RoutePlanning = () => {
             </ul>
           </div>
         </section>
-
+        {/* Section for Kerala */}
         <section className="fr-section">
           <h2 className="fr-section-title">
-            Bike Sharing and Rental Facilities in Kanyakumari
+            PUBLIC TRANSPORT SERVICES IN KERALA
           </h2>
           <div className="fr-content">
-            <h3>Bicycle Rentals</h3>
-            <p>
-              <strong>Local Shops:</strong> Numerous around the main tourist
-              areas and hotels.
-            </p>
-            <p>
-              <strong>Example Shop:</strong>
-            </p>
-            <ul>
-              <li>Name: Kanyakumari Bike Rentals</li>
-              <li>
-                Address: Near Kanyakumari Beach, Main Road, Kanyakumari, Tamil
-                Nadu 629702
-              </li>
-              <li>Contact: +91-99999-99999</li>
-              <li>Rates: Approximately ₹50-₹100 per hour.</li>
-            </ul>
-
-            <h3>Motorbike and Scooter Rentals</h3>
-            <p>
-              <strong>Local Rental Agencies:</strong>
-            </p>
-            <ul>
-              <li>Name: Kanyakumari Bike Rentals</li>
-              <li>
-                Address: Near Kanyakumari Beach, Main Road, Kanyakumari, Tamil
-                Nadu 629702
-              </li>
-              <li>Contact: +91-99999-99999</li>
-              <li>
-                Rates: Approximately ₹300-₹500 per day for scooters, ₹700-₹1500
-                per day for motorbikes.
-              </li>
-            </ul>
-          </div>
-        </section>
-      </main>
-
-      {/* Kerala Section */}
-      <main className="fr-main">
-        <section className="fr-section">
-          <h2 className="fr-section-title">
-            Public Transport Services in Kerala
-          </h2>
-          <div className="fr-content">
-            <h3>Bus Services</h3>
+            <h3>BUS SERVICES</h3>
             <p>
               <strong>Kerala State Road Transport Corporation (KSRTC):</strong>
             </p>
@@ -170,8 +122,7 @@ const RoutePlanning = () => {
               </li>
               <li>Local Bus Stops: Near the resort and other key areas.</li>
             </ul>
-
-            <h3>Train Services</h3>
+            <h3>TRAIN SERVICES</h3>
             <p>
               <strong>Mararikulam Railway Station</strong>
             </p>
@@ -186,8 +137,7 @@ const RoutePlanning = () => {
                 Ernakulam and Kollam.
               </li>
             </ul>
-
-            <h3>Taxi and Auto Rickshaw Services</h3>
+            <h3>TAXI AND AUTO RICKSHAW SERVICES</h3>
             <ul>
               <li>
                 Availability: Readily available outside the resort and major bus
@@ -200,52 +150,13 @@ const RoutePlanning = () => {
             </ul>
           </div>
         </section>
-
+        {/* Section for Manali */}
         <section className="fr-section">
           <h2 className="fr-section-title">
-            Bike Sharing and Rental Facilities in Kerala
+            PUBLIC TRANSPORT SERVICES IN MANALI
           </h2>
           <div className="fr-content">
-            <h3>Bicycle Rentals</h3>
-            <p>
-              <strong>Local Shops:</strong> Available near the resort and
-              Alappuzha town.
-            </p>
-            <p>
-              <strong>Example Shop:</strong>
-            </p>
-            <ul>
-              <li>Name: Marari Bike Rentals</li>
-              <li>Address: Near Marari Beach, Alappuzha, Kerala 688549</li>
-              <li>Contact: +91-91234-56789</li>
-              <li>Rates: Approximately ₹50-₹100 per hour.</li>
-            </ul>
-
-            <h3>Motorbike and Scooter Rentals</h3>
-            <p>
-              <strong>Local Rental Agencies:</strong>
-            </p>
-            <ul>
-              <li>Name: Alappuzha Bike Rentals</li>
-              <li>Address: Near Alappuzha Beach, Alappuzha, Kerala 688012</li>
-              <li>Contact: +91-98765-43210</li>
-              <li>
-                Rates: ₹300-₹500 per day for scooters, ₹700-₹1500 per day for
-                motorbikes.
-              </li>
-            </ul>
-          </div>
-        </section>
-      </main>
-
-      {/* Manali Section */}
-      <main className="fr-main">
-        <section className="fr-section">
-          <h2 className="fr-section-title">
-            Public Transport Services in Manali
-          </h2>
-          <div className="fr-content">
-            <h3>Bus Services</h3>
+            <h3>BUS SERVICES</h3>
             <p>
               <strong>Himachal Road Transport Corporation (HRTC):</strong>
             </p>
@@ -254,10 +165,10 @@ const RoutePlanning = () => {
                 Routes: Connects Manali with major cities like Delhi,
                 Chandigarh, and Shimla.
               </li>
-              <li>Frequency: Several buses available throughout the day.</li>
+              <li>Frequency: Regular services throughout the day.</li>
               <li>
-                Main Bus Stand Address: Manali Bus Stand, Old Manali Road,
-                Manali, Himachal Pradesh 175131.
+                Main Bus Stand Address: Manali Bus Stand, Manali, Himachal
+                Pradesh 175131.
               </li>
             </ul>
             <p>
@@ -265,30 +176,35 @@ const RoutePlanning = () => {
             </p>
             <ul>
               <li>
-                Routes: Cover local areas including Solang Valley, Rohtang Pass,
-                and Old Manali.
+                Routes: Cover local areas including Old Manali, Solang Valley,
+                and surrounding villages.
               </li>
-              <li>Frequency: Regular services every 15-30 minutes.</li>
-              <li>Local Bus Stops: Near key tourist spots and hotels.</li>
+              <li>
+                Frequency: Buses operate frequently from early morning to late
+                evening.
+              </li>
+              <li>Local Bus Stops: Near major hotels and key locations.</li>
             </ul>
-
-            <h3>Train Services</h3>
+            <h3>TRAIN SERVICES</h3>
             <p>
-              <strong>Kullu Railway Station</strong>
+              <strong>Joginder Nagar Railway Station</strong>
             </p>
-            <p>Address: Kullu, Himachal Pradesh 175101.</p>
+            <p>Address: Joginder Nagar, Mandi, Himachal Pradesh 175015.</p>
             <ul>
               <li>
-                Train Services: Manali is not directly connected by train. The
-                nearest railway stations are in Chandigarh and Joginder Nagar.
+                Nangal Dam-Joginder Nagar Passenger: Connects Joginder Nagar
+                with Nangal Dam.
+              </li>
+              <li>
+                Kalka Shimla Railway (Narrow Gauge): Connects Kalka to Shimla,
+                with onward travel options to Manali via bus.
               </li>
             </ul>
-
-            <h3>Taxi and Auto Rickshaw Services</h3>
+            <h3>TAXI AND AUTO RICKSHAW SERVICES</h3>
             <ul>
               <li>
-                Availability: Easily available outside major hotels and bus
-                stands.
+                Availability: Readily available outside hotels, bus stands, and
+                key tourist spots.
               </li>
               <li>
                 Booking: Can be arranged through hotel reception or local taxi
@@ -297,70 +213,25 @@ const RoutePlanning = () => {
             </ul>
           </div>
         </section>
-
+        {/* Section for Nainital */}
         <section className="fr-section">
           <h2 className="fr-section-title">
-            Bike Sharing and Rental Facilities in Manali
+            PUBLIC TRANSPORT SERVICES IN NAINITAL
           </h2>
           <div className="fr-content">
-            <h3>Bicycle Rentals</h3>
+            <h3>BUS SERVICES</h3>
             <p>
-              <strong>Local Shops:</strong> Several options available around
-              Manali town.
-            </p>
-            <p>
-              <strong>Example Shop:</strong>
-            </p>
-            <ul>
-              <li>Name: Manali Bike Rentals</li>
-              <li>Address: Old Manali Road, Manali, Himachal Pradesh 175131</li>
-              <li>Contact: +91-98765-43210</li>
-              <li>Rates: Approximately ₹100-₹200 per hour.</li>
-            </ul>
-
-            <h3>Motorbike and Scooter Rentals</h3>
-            <p>
-              <strong>Local Rental Agencies:</strong>
-            </p>
-            <ul>
-              <li>Name: Manali Motorbike Rentals</li>
-              <li>
-                Address: Near Manali Bus Stand, Manali, Himachal Pradesh 175131
-              </li>
-              <li>Contact: +91-99999-99999</li>
-              <li>
-                Rates: ₹500-₹800 per day for scooters, ₹1000-₹2000 per day for
-                motorbikes.
-              </li>
-            </ul>
-          </div>
-        </section>
-      </main>
-
-      {/* Leh Ladakh Section */}
-      <main className="fr-main">
-        <section className="fr-section">
-          <h2 className="fr-section-title">
-            Public Transport Services in Leh Ladakh
-          </h2>
-          <div className="fr-content">
-            <h3>Bus Services</h3>
-            <p>
-              <strong>
-                Himachal Road Transport Corporation (HRTC) and Jammu & Kashmir
-                State Road Transport Corporation (JKSRTC):
-              </strong>
+              <strong>Uttarakhand Transport Corporation (UTC):</strong>
             </p>
             <ul>
               <li>
-                Routes: Connects Leh with Srinagar, Manali, and other major
-                cities.
+                Routes: Connects Nainital with major cities like Delhi,
+                Dehradun, and Haridwar.
               </li>
+              <li>Frequency: Regular services throughout the day.</li>
               <li>
-                Frequency: Limited services, primarily during the summer season.
-              </li>
-              <li>
-                Main Bus Stand Address: Leh Bus Stand, Leh, Ladakh 194101.
+                Main Bus Stand Address: Nainital Bus Stand, Mall Road, Nainital,
+                Uttarakhand 263002.
               </li>
             </ul>
             <p>
@@ -368,77 +239,118 @@ const RoutePlanning = () => {
             </p>
             <ul>
               <li>
-                Routes: Cover local areas including Pangong Lake, Nubra Valley,
-                and surrounding areas.
+                Routes: Cover local areas including Nainital Lake, Snow View
+                Point, and surrounding towns.
               </li>
               <li>
-                Frequency: Limited services, with more availability during peak
-                tourist season.
+                Frequency: Buses operate frequently from early morning to late
+                evening.
               </li>
-              <li>Local Bus Stops: Near major hotels and key tourist spots.</li>
+              <li>Local Bus Stops: Near major hotels and tourist spots.</li>
             </ul>
-
-            <h3>Train Services</h3>
+            <h3>TRAIN SERVICES</h3>
             <p>
-              <strong>Leh does not have a railway station.</strong>
+              <strong>Kathgodam Railway Station</strong>
             </p>
+            <p>Address: Kathgodam, Haldwani, Uttarakhand 263126.</p>
             <ul>
               <li>
-                Nearest Railway Stations: Jammu Tawi Railway Station (Jammu) and
-                Pathankot Railway Station.
+                Kathgodam Express (15013/15014): Daily service between Kathgodam
+                and Delhi.
+              </li>
+              <li>
+                Nainital Express (15273/15274): Connects Kathgodam with Lucknow.
+              </li>
+              <li>
+                Ranikhet Express (15013/15014): Connects Kathgodam with Delhi.
               </li>
             </ul>
-
-            <h3>Taxi Services</h3>
+            <h3>TAXI AND AUTO RICKSHAW SERVICES</h3>
             <ul>
-              <li>Availability: Readily available in Leh town.</li>
               <li>
-                Booking: Can be arranged through local taxi services or hotel
-                reception.
+                Availability: Readily available outside hotels, bus stands, and
+                key tourist spots.
+              </li>
+              <li>
+                Booking: Can be arranged through hotel reception or local taxi
+                services.
               </li>
             </ul>
           </div>
         </section>
-
+        {/* Section for Rishikesh */}
         <section className="fr-section">
           <h2 className="fr-section-title">
-            Bike Sharing and Rental Facilities in Leh Ladakh
+            PUBLIC TRANSPORT SERVICES IN RISHIKESH
           </h2>
           <div className="fr-content">
-            <h3>Bicycle Rentals</h3>
+            <h3>BUS SERVICES</h3>
             <p>
-              <strong>Local Shops:</strong> Available in Leh town.
-            </p>
-            <p>
-              <strong>Example Shop:</strong>
+              <strong>Uttarakhand Transport Corporation (UTC):</strong>
             </p>
             <ul>
-              <li>Name: Leh Bike Rentals</li>
-              <li>Address: Main Market, Leh, Ladakh 194101</li>
-              <li>Contact: +91-98765-43210</li>
-              <li>Rates: Approximately ₹150-₹250 per hour.</li>
+              <li>
+                Routes: Connects Rishikesh with major cities such as Delhi,
+                Haridwar, Dehradun, and Mussoorie.
+              </li>
+              <li>Frequency: Regular services throughout the day.</li>
+              <li>
+                Main Bus Stand Address: Rishikesh Bus Stand, Haridwar Road,
+                Rishikesh, Uttarakhand 249201.
+              </li>
             </ul>
-
-            <h3>Motorbike Rentals</h3>
             <p>
-              <strong>Local Rental Agencies:</strong>
+              <strong>Local Buses:</strong>
             </p>
             <ul>
-              <li>Name: Leh Motorbike Rentals</li>
-              <li>Address: Near Leh Market, Leh, Ladakh 194101</li>
-              <li>Contact: +91-99999-99999</li>
-              <li>Rates: ₹800-₹1200 per day for motorbikes.</li>
+              <li>
+                Routes: Cover local areas including Lakshman Jhula, Triveni
+                Ghat, and nearby ashrams.
+              </li>
+              <li>
+                Frequency: Buses operate frequently from early morning to late
+                evening.
+              </li>
+              <li>Local Bus Stops: Near major hotels and key locations.</li>
+            </ul>
+            <h3>TRAIN SERVICES</h3>
+            <p>
+              <strong>Rishikesh Railway Station</strong>
+            </p>
+            <p>Address: Railway Road, Rishikesh, Uttarakhand 249201.</p>
+            <ul>
+              <li>
+                Mussoorie Express (14041/14042): Daily service between Delhi and
+                Rishikesh.
+              </li>
+              <li>
+                Hemkunt Express (14609/14610): Connects Rishikesh with Jammu.
+              </li>
+            </ul>
+            <h3>TAXI AND AUTO RICKSHAW SERVICES</h3>
+            <ul>
+              <li>
+                Availability: Readily available outside hotels, bus stands, and
+                key tourist spots.
+              </li>
+              <li>
+                Booking: Can be arranged through hotel reception or local taxi
+                services.
+              </li>
             </ul>
           </div>
         </section>
-      </main>
-      <section className="fr-section">
-        <div className="fr-content">
-          <button id="view-activities-btn" className="fr-btn" onClick={() => handleNavigate('/adventures')}>
+        <div className="fr-button">
+          <button
+            id="view-activities-btn"
+            className="fr-btn"
+            onClick={() => handleNavigate("/adventures")}
+          >
             View Activities and Accommodations
           </button>
         </div>
-      </section>
+        ;
+      </main>
     </div>
   );
 };
