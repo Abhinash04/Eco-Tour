@@ -1,5 +1,16 @@
-.activities-container {
+.page{
+  background-image: url('back2.jpg');
+  background-size: cover;
+  background-position: center;
   padding: 20px;
+}
+
+
+
+
+
+.activities-container {
+  padding: 40px;
   text-align: center;
   font-size: 2rem;
 }
@@ -10,9 +21,9 @@
   margin-bottom: 20px;
   margin-left: 20px;
   text-align: center;
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: "Algerian";
-  -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
   color: rgb(75, 241, 4);
 }
 
