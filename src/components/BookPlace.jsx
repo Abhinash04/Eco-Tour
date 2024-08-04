@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './BookPlace.css';
+import './Form.css';
 
 const BookPlace = () => {
     const navigate = useNavigate();

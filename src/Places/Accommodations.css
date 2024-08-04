@@ -93,12 +93,12 @@
   display: block;
   background-color: green;
   color: white;
-  margin-top: 20px;
-  padding: 10px 20px;
+  margin-top: 40px;
+  padding: 20px 40px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 25px;
   margin: 20px auto 0;
   text-align: center;
 }
