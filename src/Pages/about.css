@@ -14,12 +14,12 @@
     align-items: center;
     margin: 10px;
     padding: 10px;
-    font-family: 'Algerian';
-    font-weight: 100;
-    font-size: 4vw; 
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 4rem; 
     border-bottom: 2px solid black;
     color: rgb(75, 241, 4);
-    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 
 .ab-main {
@@ -44,9 +44,9 @@ section h1 {
     padding-bottom: 4px;
     color: rgb(75, 241, 4);
     -webkit-text-stroke: 1.5px rgb(0, 0, 0);
-    font-family: 'Algerian', Times, serif;
-    font-weight: 400;
-    font-size: 4vw;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 3.5rem;
     margin-bottom: 0.5rem;
     display: flex;
     align-items: center;
@@ -139,8 +139,17 @@ ul li strong {
     }
 }
 
+@media (max-width: 768px) {
+    .abclass h1 {
+        font-size: 3.5rem;
+    }
 
-@media (max-width: 480px) {
+    section h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 450px) {
 
     .ab-main {
         padding: 10px;
@@ -167,7 +176,7 @@ ul li strong {
     }
 
     .abclass h1 {
-        font-size: 3.5rem;
+        font-size: 2.8rem;
         text-align: center;
     }
 

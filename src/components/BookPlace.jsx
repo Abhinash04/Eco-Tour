@@ -40,7 +40,7 @@ const BookPlace = () => {
     return (
         <main>
             <section className="bp-tour-form">
-                <h1>PLAN YOUR ECO-fRIENDLY TRIP</h1>
+                <h1 className='bp-head'>PLAN YOUR ECO-FRIENDLY TRIP</h1>
                 <p className="bp-disclaimer">Disclaimer: This feature currently works for the following routes only:</p>
                 <p className="bp-disclaimer">
                     Odisha-Kerala <br />
@@ -72,7 +72,7 @@ const BookPlace = () => {
                     <label htmlFor="passengers">NUMBER OF PASSENGERS:</label>
                     <input type="number" id="passengers" name="passengers" min="1" defaultValue="1" />
 
-                    <button type="submit" className='bp-btn'>Plan My Eco Tour</button>
+                    <button type="submit" className='bp-btn'>PLAN MY ECO TOUR</button>
                 </form>
             </section>
         </main>

@@ -8,15 +8,13 @@ const SignIn = ({ onToggle }) => {
     const navigate = useNavigate();  
 
     const handleSignIn = () => {
-        // Perform sign-in logic here (e.g., form validation)
-        // Redirect to Profile page
         navigate('/profile');
     };
 
     return (
         <div className="ap-form-container ap-sign-in">
             <form>
-                <h1>Sign In</h1>
+                <h1>SIGN IN</h1>
                 <div className="ap-social-icons">
                     <a href="#" className="icon">
                         <FontAwesomeIcon icon={faGooglePlusG} />
@@ -36,8 +34,8 @@ const SignIn = ({ onToggle }) => {
                 <input type="email" placeholder="Email" required/>
                 <input type="password" placeholder="Password" required/>
                 <a href="#">Forgot your password?</a>
-                <button type="button" onClick={handleSignIn}>  {/* Add onClick handler */}
-                    Sign In
+                <button type="button" onClick={handleSignIn}>  
+                    SIGN IN
                 </button>
                 <p>Not Registered? Then create your account. <br /> 
                    <a href="#" onClick={onToggle}><strong>Sign Up</strong></a>

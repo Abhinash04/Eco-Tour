@@ -33,9 +33,9 @@
 
 .contact-left-title h1 {
   font-weight: bold;
-  font-family: Algerian;
+  font-family: Roboto;
   color: rgb(75, 241, 4);
-  -webkit-text-stroke: 0.5px rgb(0, 6, 0);
+  -webkit-text-stroke: 1.5px rgb(0, 6, 0);
   font-size: 4vw;
   margin-bottom: 5px;
   text-align: center;

@@ -15,7 +15,8 @@
   color: #333;
 }
 .tour-services .tour-main-txt h1 span {
-  font-family: Algerian;
+  font-weight: bold;
+  font-family: Roboto;
   color: rgb(75, 241, 4);
   -webkit-text-stroke: 2px rgb(0, 0, 0);
 }

@@ -36,11 +36,11 @@ const EmissionResults = () => {
                 </div>
                 <div class="res-alternatives">
                     <h3>Alternate Methods to Reduce Emissions:</h3>
-                    <ul>
-                        <li>Consider taking a train instead of a car or flight.</li>
-                        <li>Use public transportation or carpooling.</li>
-                        <li>Offset your carbon emissions by supporting environmental projects.</li>
-                    </ul>
+                    <p>
+                      Consider taking a train instead of a car or flight.<br/>
+                      Use public transportation or carpooling.<br/>
+                      Offset your carbon emissions by supporting environmental projects.<br/>
+                    </p>
                 </div>
             `;
     }
@@ -64,13 +64,13 @@ const EmissionResults = () => {
   return (
     <main>
       <section className="res-results">
-        <h1>CARBON EMISSION RESULTS</h1>
+        <h1 className="res-head">CARBON EMISSION RESULTS</h1>
         <div
           id="resultsContent"
           dangerouslySetInnerHTML={{ __html: resultsContent }}
         />
         <button className="res-btn" onClick={() => (window.location.href = "/routeplanning")}>
-          View Travel Routes
+          VIEW TRAVEL ROUTES
         </button>
       </section>
     </main>

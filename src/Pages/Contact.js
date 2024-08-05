@@ -15,7 +15,7 @@ const Contact = () => {
           className="contact-left"
         >
           <div className="contact-left-title">
-            <h1>Drop Us a Line</h1>
+            <h1>DROP US A LINE</h1>
             <hr />
           </div>
           <input

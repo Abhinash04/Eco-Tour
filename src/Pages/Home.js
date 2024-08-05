@@ -14,10 +14,10 @@ const Home = () => {
             <div className="home">
                 <img src={homeimg} alt="Eco-Tour" className="homeimg" />
                 <div className="content">
-                    <h5>Welcome To <span>Eco-Tour</span></h5>
+                    <h5>Welcome To <span className='ecotour'>Eco-Tour</span></h5>
                     <h1>Visit <span className="changecontent"></span></h1>
                     <p>Explore the world sustainably with EcoTour - your guide to eco-friendly travel adventures</p>
-                    <Link to="/bookplace" className="btn btn-primary">Book Place</Link>
+                    <Link to="/bookplace" className="btn btn-primary">BOOK PLACE</Link>
                 </div>
             </div>
             <Tips />
