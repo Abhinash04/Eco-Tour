@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import About from "./About";
-import Contact from "./Contact";
-import Profile from "./Profile";
-import Tips from "./Tips";
-import Review from "./Review";
-import Tour from "./Tour";
+import Home from "./Pages/Home.js";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Profile from "./Pages/Profile";
+import Tips from "./Pages/Tips";
+import Review from "./Pages/Review";
+import Tour from "./Pages/Tour";
 import BookPlace from "./components/BookPlace.jsx";
 import EmissionResults from "./components/EmissionResults.jsx"
 import SignUp from "./components/SignUp";
@@ -14,7 +14,7 @@ import SignIn from "./components/SignIn";
 import Toggle from "./components/Toggle";
 import Adventures from "./components/adventures.jsx"
 import Greenaccomodation from "./components/accomodation.jsx";
-import RoutePlanning from "./routeplanning";
+import RoutePlanning from "./Pages/routeplanning";
 
 const App = () => {
   const [isActive, setIsActive] = useState(false);

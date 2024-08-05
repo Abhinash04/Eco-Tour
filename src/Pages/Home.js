@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Home.css";
-import Header from './components/Header';
-import Footer from './components/Footer';
-import homeimg from './images/Home.png';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import homeimg from '../images/Home.png';
 import Review from './Review.js';
 import Tips from './Tips.js';
 import { Link } from 'react-router-dom';
