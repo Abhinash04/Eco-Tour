@@ -1,4 +1,4 @@
-.tips-page{
+.tips-page {
   background-image: url('../Places/back1.jpg');
   background-size: cover;
   background-position: center;
@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto;
 }
 
 .tips-container {
@@ -27,8 +27,8 @@
   color: rgb(75, 241, 4);
   margin-bottom: 40px;
   border-bottom: 1px solid green;
-  font-size:4vw;
-  font-family: "Algerian";
+  font-size: 4vw;
+  font-family: Algerian;
   -webkit-text-stroke: 1.5px rgb(0, 0, 0);
 }
 
@@ -41,8 +41,8 @@
   text-align: center;
   color: rgb(75, 241, 4);
   margin-bottom: 20px;
-  font-size: 3em;
-  font-family: "Algerian";
+  font-size: 3rem;
+  font-family: Algerian;
   -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
@@ -57,8 +57,8 @@
 }
 
 .tips-item {
-  width: 300px;
-  height: 320px;
+  width: 60%;
+  height: 80%;
   background-color: #228B22;
   border-radius: 10px;
   padding: 20px;
@@ -108,9 +108,22 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.tips-h3 {
+  font-size: 2.5rem;
+  font-family: "Algerian";
+  color: #fff;
+}
+
+.tips-para {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Roboto";
+}
+
 @media (max-width: 768px) {
   .tips-item {
-    width: 45%;
+    width: 80%;
+    height: 60%;
   }
 
   .tips-prev,
@@ -126,22 +139,15 @@
   .tips-page-heading {
     font-size: 3.5rem;
   }
+  .tips-h3{
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 430px) {
-
-  .tips-body {
-    min-height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-  }
-
   .tips-item {
-    width: 60%;
-    height: 60%;
+    width: 75%;
+    height: 80%;
   }
 
   .tips-prev,
@@ -150,23 +156,66 @@
     padding: 6px;
   }
 
-  .tips-slider-section h2 {
-    font-size: 2rem;
+  .tips-page-heading {
+    font-size: 3rem;
+  }
+  
+  .tips-h3{
+    font-size: 1.5rem;
+  }
+
+  .tips-para{
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .tips-item {
+    width: 70%;
+    height: 75%;
+  }
+
+  .tips-prev,
+  .tips-next {
+    font-size: 1.2em;
+    padding: 6px;
   }
 
   .tips-page-heading {
-    font-size: 2.25rem;
+    font-size: 3rem;
+  }
+
+  .tips-h3 {
+    font-size: 1.25rem;
+    font-family: Roboto;
+    font-weight: bold;
+  }
+
+  .tips-para{
+    font-size: 1rem;
   }
 }
 
-.tips-h3 {
-  font-size: 1.5rem;
-  font-family: "Algerian";
-  color: #fff;
+@media (max-width: 330px) {
+  .tips-item {
+    width: 68%;
+    height: 80%;
+  }
+
+  .tips-prev,
+  .tips-next {
+    font-size: 1.2em;
+    padding: 6px;
+  }
+
+  .tips-page-heading {
+    font-size: 2.5rem;
+  }
+
+  .tips-h3 {
+    font-size: 1rem;
+    font-family: Roboto;
+    font-weight: bold;
+  }
 }
 
-.tips-para {
-  color: #fff;
-  font-size: 1rem;
-  font-family: "Roboto";
-}

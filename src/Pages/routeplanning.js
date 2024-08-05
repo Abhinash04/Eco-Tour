@@ -11,6 +11,7 @@ const RoutePlanning = () => {
   return (
     <div className="fr-body">
       <main className="fr-main">
+        <h1 className="fr-head1">ROUTE PLANNING</h1>
         {/* Section for Kanyakumari */}
         <section className="fr-section">
           <h2 className="fr-section-title">
@@ -20,71 +21,40 @@ const RoutePlanning = () => {
             <h3>BUS SERVICES</h3>
             <p>
               <strong>Tamil Nadu State Transport Corporation (TNSTC):</strong>
+              <br />
+              Routes: Connects Kanyakumari with Chennai, Madurai, Trivandrum, and other major cities.
+              <br />
+              Frequency: Buses to major cities run frequently throughout the day.
+              <br />
+              Main Bus Stand Address: Kanyakumari Bus Stand, Main Road, Kanyakumari, Tamil Nadu 629702.
             </p>
-            <ul>
-              <li>
-                Routes: Connects Kanyakumari with Chennai, Madurai, Trivandrum,
-                and other major cities.
-              </li>
-              <li>
-                Frequency: Buses to major cities run frequently throughout the
-                day.
-              </li>
-              <li>
-                Main Bus Stand Address: Kanyakumari Bus Stand, Main Road,
-                Kanyakumari, Tamil Nadu 629702.
-              </li>
-            </ul>
             <p>
               <strong>Local Buses:</strong>
+              <br />
+              Routes: Cover key local areas including Kanyakumari Beach, Vivekananda Rock Memorial, Thiruvalluvar Statue, and the railway station.
+              <br />
+              Frequency: Operate at intervals of 15-30 minutes from early morning until late evening.
+              <br />
+              Local Bus Stops: Near Kanyakumari Beach, hotels, and major tourist spots.
             </p>
-            <ul>
-              <li>
-                Routes: Cover key local areas including Kanyakumari Beach,
-                Vivekananda Rock Memorial, Thiruvalluvar Statue, and the railway
-                station.
-              </li>
-              <li>
-                Frequency: Operate at intervals of 15-30 minutes from early
-                morning until late evening.
-              </li>
-              <li>
-                Local Bus Stops: Near Kanyakumari Beach, hotels, and major
-                tourist spots.
-              </li>
-            </ul>
             <h3>TRAIN SERVICES</h3>
             <p>
-              <strong>Kanyakumari Railway Station</strong>
-            </p>
-            <p>
+              <strong>Kanyakumari Railway Station:</strong>
+              <br />
               Address: Railway Station Road, Kanyakumari, Tamil Nadu 629702.
+              <br />
+              Kanyakumari Express (12633/12634): Daily service between Chennai and Kanyakumari.
+              <br />
+              Cape Mumbai Express (16382/16381): Daily service between Mumbai and Kanyakumari.
+              <br />
+              Trivandrum Express (16382/16381): Daily service connecting Trivandrum and Kanyakumari.
             </p>
-            <ul>
-              <li>
-                Kanyakumari Express (12633/12634): Daily service between Chennai
-                and Kanyakumari.
-              </li>
-              <li>
-                Cape Mumbai Express (16382/16381): Daily service between Mumbai
-                and Kanyakumari.
-              </li>
-              <li>
-                Trivandrum Express (16382/16381): Daily service connecting
-                Trivandrum and Kanyakumari.
-              </li>
-            </ul>
             <h3>TAXI AND AUTORICKSHAW SERVICES</h3>
-            <ul>
-              <li>
-                Availability: Readily available outside hotels, bus stops, and
-                the railway station.
-              </li>
-              <li>
-                Booking: Can be arranged through hotel reception or via local
-                taxi services.
-              </li>
-            </ul>
+            <p>
+              Availability: Readily available outside hotels, bus stops, and the railway station.
+              <br />
+              Booking: Can be arranged through hotel reception or via local taxi services.
+            </p>
           </div>
         </section>
         {/* Section for Kerala */}
@@ -96,58 +66,38 @@ const RoutePlanning = () => {
             <h3>BUS SERVICES</h3>
             <p>
               <strong>Kerala State Road Transport Corporation (KSRTC):</strong>
+              <br />
+              Routes: Connects Alappuzha with major cities like Kochi, Trivandrum, and Kottayam.
+              <br />
+              Frequency: Frequent services throughout the day.
+              <br />
+              Main Bus Stand Address: Alappuzha KSRTC Bus Stand, CCSB Road, Civil Station Ward, Alappuzha, Kerala 688012.
             </p>
-            <ul>
-              <li>
-                Routes: Connects Alappuzha with major cities like Kochi,
-                Trivandrum, and Kottayam.
-              </li>
-              <li>Frequency: Frequent services throughout the day.</li>
-              <li>
-                Main Bus Stand Address: Alappuzha KSRTC Bus Stand, CCSB Road,
-                Civil Station Ward, Alappuzha, Kerala 688012.
-              </li>
-            </ul>
             <p>
               <strong>Local Buses:</strong>
+              <br />
+              Routes: Cover local areas including Mararikulam, Alappuzha Beach, and nearby villages.
+              <br />
+              Frequency: Regular services every 15-30 minutes from early morning to late evening.
+              <br />
+              Local Bus Stops: Near the resort and other key areas.
             </p>
-            <ul>
-              <li>
-                Routes: Cover local areas including Mararikulam, Alappuzha
-                Beach, and nearby villages.
-              </li>
-              <li>
-                Frequency: Regular services every 15-30 minutes from early
-                morning to late evening.
-              </li>
-              <li>Local Bus Stops: Near the resort and other key areas.</li>
-            </ul>
             <h3>TRAIN SERVICES</h3>
             <p>
-              <strong>Mararikulam Railway Station</strong>
+              <strong>Mararikulam Railway Station:</strong>
+              <br />
+              Address: Mararikulam, Alappuzha, Kerala 688549.
+              <br />
+              Alappuzha Express (16307/16308): Daily service between Alappuzha and Chennai.
+              <br />
+              Passenger Trains: Frequent services to nearby towns like Ernakulam and Kollam.
             </p>
-            <p>Address: Mararikulam, Alappuzha, Kerala 688549.</p>
-            <ul>
-              <li>
-                Alappuzha Express (16307/16308): Daily service between Alappuzha
-                and Chennai.
-              </li>
-              <li>
-                Passenger Trains: Frequent services to nearby towns like
-                Ernakulam and Kollam.
-              </li>
-            </ul>
             <h3>TAXI AND AUTO RICKSHAW SERVICES</h3>
-            <ul>
-              <li>
-                Availability: Readily available outside the resort and major bus
-                stops.
-              </li>
-              <li>
-                Booking: Can be arranged through the resort reception or local
-                taxi services.
-              </li>
-            </ul>
+            <p>
+              Availability: Readily available outside the resort and major bus stops.
+              <br />
+              Booking: Can be arranged through the resort reception or local taxi services.
+            </p>
           </div>
         </section>
         {/* Section for Manali */}
@@ -159,58 +109,38 @@ const RoutePlanning = () => {
             <h3>BUS SERVICES</h3>
             <p>
               <strong>Himachal Road Transport Corporation (HRTC):</strong>
+              <br />
+              Routes: Connects Manali with major cities like Delhi, Chandigarh, and Shimla.
+              <br />
+              Frequency: Regular services throughout the day.
+              <br />
+              Main Bus Stand Address: Manali Bus Stand, Manali, Himachal Pradesh 175131.
             </p>
-            <ul>
-              <li>
-                Routes: Connects Manali with major cities like Delhi,
-                Chandigarh, and Shimla.
-              </li>
-              <li>Frequency: Regular services throughout the day.</li>
-              <li>
-                Main Bus Stand Address: Manali Bus Stand, Manali, Himachal
-                Pradesh 175131.
-              </li>
-            </ul>
             <p>
               <strong>Local Buses:</strong>
+              <br />
+              Routes: Cover local areas including Old Manali, Solang Valley, and surrounding villages.
+              <br />
+              Frequency: Buses operate frequently from early morning to late evening.
+              <br />
+              Local Bus Stops: Near major hotels and key locations.
             </p>
-            <ul>
-              <li>
-                Routes: Cover local areas including Old Manali, Solang Valley,
-                and surrounding villages.
-              </li>
-              <li>
-                Frequency: Buses operate frequently from early morning to late
-                evening.
-              </li>
-              <li>Local Bus Stops: Near major hotels and key locations.</li>
-            </ul>
             <h3>TRAIN SERVICES</h3>
             <p>
-              <strong>Joginder Nagar Railway Station</strong>
+              <strong>Joginder Nagar Railway Station:</strong>
+              <br />
+              Address: Joginder Nagar, Mandi, Himachal Pradesh 175015.
+              <br />
+              Nangal Dam-Joginder Nagar Passenger: Connects Joginder Nagar with Nangal Dam.
+              <br />
+              Kalka Shimla Railway (Narrow Gauge): Connects Kalka to Shimla, with onward travel options to Manali via bus.
             </p>
-            <p>Address: Joginder Nagar, Mandi, Himachal Pradesh 175015.</p>
-            <ul>
-              <li>
-                Nangal Dam-Joginder Nagar Passenger: Connects Joginder Nagar
-                with Nangal Dam.
-              </li>
-              <li>
-                Kalka Shimla Railway (Narrow Gauge): Connects Kalka to Shimla,
-                with onward travel options to Manali via bus.
-              </li>
-            </ul>
             <h3>TAXI AND AUTO RICKSHAW SERVICES</h3>
-            <ul>
-              <li>
-                Availability: Readily available outside hotels, bus stands, and
-                key tourist spots.
-              </li>
-              <li>
-                Booking: Can be arranged through hotel reception or local taxi
-                services.
-              </li>
-            </ul>
+            <p>
+              Availability: Readily available outside hotels, bus stands, and key tourist spots.
+              <br />
+              Booking: Can be arranged through hotel reception or local taxi services.
+            </p>
           </div>
         </section>
         {/* Section for Nainital */}
@@ -222,60 +152,40 @@ const RoutePlanning = () => {
             <h3>BUS SERVICES</h3>
             <p>
               <strong>Uttarakhand Transport Corporation (UTC):</strong>
+              <br />
+              Routes: Connects Nainital with major cities like Delhi, Dehradun, and Haridwar.
+              <br />
+              Frequency: Regular services throughout the day.
+              <br />
+              Main Bus Stand Address: Nainital Bus Stand, Mall Road, Nainital, Uttarakhand 263002.
             </p>
-            <ul>
-              <li>
-                Routes: Connects Nainital with major cities like Delhi,
-                Dehradun, and Haridwar.
-              </li>
-              <li>Frequency: Regular services throughout the day.</li>
-              <li>
-                Main Bus Stand Address: Nainital Bus Stand, Mall Road, Nainital,
-                Uttarakhand 263002.
-              </li>
-            </ul>
             <p>
               <strong>Local Buses:</strong>
+              <br />
+              Routes: Cover local areas including Nainital Lake, Snow View Point, and surrounding towns.
+              <br />
+              Frequency: Buses operate frequently from early morning to late evening.
+              <br />
+              Local Bus Stops: Near major hotels and tourist spots.
             </p>
-            <ul>
-              <li>
-                Routes: Cover local areas including Nainital Lake, Snow View
-                Point, and surrounding towns.
-              </li>
-              <li>
-                Frequency: Buses operate frequently from early morning to late
-                evening.
-              </li>
-              <li>Local Bus Stops: Near major hotels and tourist spots.</li>
-            </ul>
             <h3>TRAIN SERVICES</h3>
             <p>
-              <strong>Kathgodam Railway Station</strong>
+              <strong>Kathgodam Railway Station:</strong>
+              <br />
+              Address: Kathgodam, Haldwani, Uttarakhand 263126.
+              <br />
+              Kathgodam Express (15013/15014): Daily service between Kathgodam and Delhi.
+              <br />
+              Nainital Express (15273/15274): Connects Kathgodam with Lucknow.
+              <br />
+              Ranikhet Express (15013/15014): Connects Kathgodam with Delhi.
             </p>
-            <p>Address: Kathgodam, Haldwani, Uttarakhand 263126.</p>
-            <ul>
-              <li>
-                Kathgodam Express (15013/15014): Daily service between Kathgodam
-                and Delhi.
-              </li>
-              <li>
-                Nainital Express (15273/15274): Connects Kathgodam with Lucknow.
-              </li>
-              <li>
-                Ranikhet Express (15013/15014): Connects Kathgodam with Delhi.
-              </li>
-            </ul>
             <h3>TAXI AND AUTO RICKSHAW SERVICES</h3>
-            <ul>
-              <li>
-                Availability: Readily available outside hotels, bus stands, and
-                key tourist spots.
-              </li>
-              <li>
-                Booking: Can be arranged through hotel reception or local taxi
-                services.
-              </li>
-            </ul>
+            <p>
+              Availability: Readily available outside hotels, bus stands, and key tourist spots.
+              <br />
+              Booking: Can be arranged through hotel reception or local taxi services.
+            </p>
           </div>
         </section>
         {/* Section for Rishikesh */}
@@ -287,69 +197,45 @@ const RoutePlanning = () => {
             <h3>BUS SERVICES</h3>
             <p>
               <strong>Uttarakhand Transport Corporation (UTC):</strong>
+              <br />
+              Routes: Connects Rishikesh with major cities such as Delhi, Haridwar, Dehradun, and Mussoorie.
+              <br />
+              Frequency: Regular services throughout the day.
+              <br />
+              Main Bus Stand Address: Rishikesh Bus Stand, Haridwar Road, Rishikesh, Uttarakhand 249201.
             </p>
-            <ul>
-              <li>
-                Routes: Connects Rishikesh with major cities such as Delhi,
-                Haridwar, Dehradun, and Mussoorie.
-              </li>
-              <li>Frequency: Regular services throughout the day.</li>
-              <li>
-                Main Bus Stand Address: Rishikesh Bus Stand, Haridwar Road,
-                Rishikesh, Uttarakhand 249201.
-              </li>
-            </ul>
             <p>
               <strong>Local Buses:</strong>
+              <br />
+              Routes: Cover local areas including Lakshman Jhula, Triveni Ghat, and surrounding towns.
+              <br />
+              Frequency: Buses operate frequently from early morning to late evening.
+              <br />
+              Local Bus Stops: Near major hotels, ashrams, and key tourist spots.
             </p>
-            <ul>
-              <li>
-                Routes: Cover local areas including Lakshman Jhula, Triveni
-                Ghat, and nearby ashrams.
-              </li>
-              <li>
-                Frequency: Buses operate frequently from early morning to late
-                evening.
-              </li>
-              <li>Local Bus Stops: Near major hotels and key locations.</li>
-            </ul>
             <h3>TRAIN SERVICES</h3>
             <p>
-              <strong>Rishikesh Railway Station</strong>
+              <strong>Rishikesh Railway Station:</strong>
+              <br />
+              Address: Rishikesh, Uttarakhand 249201.
+              <br />
+              Rishikesh Express (14631/14632): Daily service connecting Rishikesh with Delhi.
+              <br />
+              Haridwar-Rishikesh Passenger Trains: Frequent services to Haridwar.
             </p>
-            <p>Address: Railway Road, Rishikesh, Uttarakhand 249201.</p>
-            <ul>
-              <li>
-                Mussoorie Express (14041/14042): Daily service between Delhi and
-                Rishikesh.
-              </li>
-              <li>
-                Hemkunt Express (14609/14610): Connects Rishikesh with Jammu.
-              </li>
-            </ul>
             <h3>TAXI AND AUTO RICKSHAW SERVICES</h3>
-            <ul>
-              <li>
-                Availability: Readily available outside hotels, bus stands, and
-                key tourist spots.
-              </li>
-              <li>
-                Booking: Can be arranged through hotel reception or local taxi
-                services.
-              </li>
-            </ul>
+            <p>
+              Availability: Readily available outside hotels, bus stands, and key tourist spots.
+              <br />
+              Booking: Can be arranged through hotel reception or local taxi services.
+            </p>
           </div>
         </section>
         <div className="fr-button">
-          <button
-            id="view-activities-btn"
-            className="fr-btn"
-            onClick={() => handleNavigate("/adventures")}
-          >
-            View Activities
-          </button>
-        </div>
-        ;
+            <button className="fr-btn" onClick={() => handleNavigate("/adventures")}>
+              VIEW ACTIVITIES
+            </button>
+          </div>
       </main>
     </div>
   );

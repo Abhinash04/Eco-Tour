@@ -15,14 +15,14 @@ const Services = () => {
     <section className="tour-services" id="services">
       <div className="tour-container">
         <div className="tour-main-txt">
-          <h1><span>Services</span></h1>
+          <h1><span>SERVICES</span></h1>
         </div>
         <div className="tour-row" style={{ marginTop: '30px' }}>
           <div className="tour-col-md-4 tour-py-3 tour-py-md-0" onClick={() => handleNavigate('/greenaccomodation')}>
             <div className="tour-card">
               <FontAwesomeIcon icon={faHotel} size="3x" style={{ color: 'rgb(75, 241, 4)', marginTop: '20px' }} />
               <div className="tour-card-body">
-                <h3>Green Accommodation</h3>
+                <h3>GREEN ACCOMMODATION</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
               </div>
             </div>
@@ -60,7 +60,7 @@ const Services = () => {
             <div className="tour-card">
               <FontAwesomeIcon icon={faPlane} size="3x" style={{ color: 'rgb(75, 241, 4)', marginTop: '20px' }} />
               <div className="tour-card-body">
-                <h3>Route Planning</h3>
+                <h3>ROUTE PLANNING</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
               </div>
             </div>
@@ -69,7 +69,7 @@ const Services = () => {
             <div className="tour-card">
               <FontAwesomeIcon icon={faHiking} size="3x" style={{ color: 'rgb(75, 241, 4)', marginTop: '20px' }} />
               <div className="tour-card-body">
-                <h3>Adventures</h3>
+                <h3>ADVENTURES</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
               </div>
             </div>

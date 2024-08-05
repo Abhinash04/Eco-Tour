@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap");
 
 .fr-body {
-  font-family: "Outfit", sans-serif;
   background-color: #f0f4f1;
-  color: #333;
   padding: 20px;
 }
 
@@ -11,6 +9,14 @@
   margin: 0 auto;
   max-width: 1200px;
 }
+
+.fr-main .fr-head1{
+  font-size: 4rem;
+  text-align: center;
+  font-family: Algerian;
+  color: rgb(75, 241, 4);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+} 
 
 .fr-section {
   margin-bottom: 30px;
@@ -22,31 +28,13 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.fr-section:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, #004d00, #66ff66, #004d00);
-  border-radius: 10px;
-  z-index: -1;
-  transition: all 0.3s ease-in-out;
-  opacity: 0;
-}
-
-.fr-section:hover:before {
-  opacity: 1;
-  transform: scale(1.05);
-}
-
 .fr-section-title {
-  font-size: 2em;
+  font-size: 3rem;
   color: rgb(75, 241, 4);
   border-bottom: 2px solid #006400;
   padding-bottom: 10px;
-  font-family: "Algerian";
+  text-align: center;
+  font-family: Algerian;
   -webkit-text-stroke: 1px rgb(0, 3, 0);
 }
 
@@ -54,24 +42,22 @@
   background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
+  font-family: Roboto;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .fr-content h3 {
   color: #266f26;
   margin-top: 0;
-  font-weight: 700;
-  font-family: "procerus";
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Roboto;
 }
 
-.fr-content ul {
-  padding-left: 20px;
-}
-
-.fr-btn {
+.fr-btn{
   display: block;
   width: 100%;
-  max-width: 200px;
+  max-width: 400px;
   padding: 10px;
   margin: 20px auto;
   background-color: #006400;
@@ -79,6 +65,8 @@
   border: none;
   border-radius: 5px;
   text-align: center;
+  font-family: Roboto;
+  font-size: 2rem;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
 }
@@ -86,4 +74,35 @@
 .fr-btn:hover {
   background-color: #004d00;
   transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .fr-btn{
+    width: 40%;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .fr-btn{
+    width: 50%;
+    font-size: 1rem;
+  }
+
+  .fr-main .fr-head1{
+    font-size: 3rem;
+  }
+
+  .fr-section-title{
+    font-size: 2rem;
+    -webkit-text-stroke: 0.75px rgb(0, 0, 0);
+  }
+
+  .fr-content h3{
+    font-size: 1.5rem;
+  }
+
+  .fr-content p{
+    font-size: 1.25rem;
+  }
 }
