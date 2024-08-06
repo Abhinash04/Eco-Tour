@@ -9,18 +9,19 @@
   padding: 40px;
   text-align: center;
   font-size: 2rem;
+ 
 }
 
 .activities-container h2 {
   text-decoration: underline;
   text-decoration-thickness: 4px;
   margin-bottom: 20px;
-  margin-left: 20px;
   text-align: center;
   font-size: 2.5em;
-  font-family: "Algerian";
+  font-family: "Roboto";
   -webkit-text-stroke: 1px rgb(0, 0, 0);
   color: rgb(75, 241, 4);
+  text-transform: uppercase; 
 }
 
 .activity-card {
@@ -33,15 +34,16 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
   height: 300px;
-  text-align: center; 
+  text-align: center;
+ 
 }
 
 .activity-card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block; 
-  margin: 0 auto; 
+  display: block;
+  margin: 0 auto;
   transition: opacity 0.3s ease;
 }
 
@@ -80,14 +82,72 @@
   opacity: 1;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 1024px) {
   .activity-card {
     width: 45%;
+    margin: 10px;
+    height: 250px;
+  }
+
+  .activities-container h2 {
+    font-size: 1.8em;
   }
 }
 
-@media (max-width: 480px) {
+
+@media (max-width: 768px) {
   .activity-card {
     width: 90%;
+    margin: 10px auto;
+    height: 250px;
+  }
+
+  .activities-container h2 {
+    font-size: 1.2em;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .activity-card {
+    width: 100%;
+    margin: 10px 0;
+    height: 200px;
+  }
+
+  .activities-container h2 {
+    font-size: 1em;
+    margin-left: 10px;
+  }
+
+  .activity-card .description h3 {
+    font-size: 0.9rem;
+  }
+
+  .activity-card .description p {
+    font-size: 0.5rem;
+  }
+}
+
+
+@media (max-width: 350px) {
+  .activity-card {
+    width: 100%;
+    margin: 5px 0;
+    height: 180px;
+  }
+
+  .activities-container h2 {
+    font-size: 1em;
+    margin-left: 5px;
+  }
+
+  .activity-card .description h3 {
+    font-size: 0.7rem;
+  }
+
+  .activity-card .description p {
+    font-size: 0.5rem;
   }
 }
