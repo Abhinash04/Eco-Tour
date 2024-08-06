@@ -1,4 +1,4 @@
-.page{
+.page {
   background-image: url('back1.jpg');
   background-size: cover;
   background-position: center;
@@ -15,10 +15,10 @@
   text-decoration: underline;
   text-decoration-thickness: 4px; 
   margin-bottom: 20px;
-  margin-left: 20px; 
+ text-transform: uppercase;
   text-align: center;
   font-size: 2.5em;
-  font-family: "Algerian";
+  font-family: "Roboto";
   -webkit-text-stroke: 1px rgb(0, 0, 0);
   color: rgb(75, 241, 4);
 }
@@ -77,32 +77,71 @@
   opacity: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .accommodation-card {
     width: 45%;
+    margin: 10px; 
+    height: 250px; 
+  }
+
+  .accommodations-container h2 {
+    font-size: 1.8em;
   }
 }
+
+
+@media (max-width: 768px) {
+  .accommodation-card {
+    width: 90%;
+    margin: 10px auto; 
+    height: 250px; 
+  }
+
+  .accommodations-container h2 {
+    font-size: 1.2em;
+  }
+}
+
 
 @media (max-width: 480px) {
   .accommodation-card {
-    width: 90%;
+    width: 100%;
+    margin: 10px 0; 
+    height: 200px; 
+  }
+
+  .accommodations-container h2 {
+    font-size: 1em;
+    margin-left: 10px;
+  }
+
+  .accommodation-card .description h3 {
+    font-size: 0.9rem; 
+  }
+
+  .accommodation-card .description p {
+    font-size: 0.5rem; 
   }
 }
 
-/* .view-tour-button {
-  display: block;
-  background-color: green;
-  color: white;
-  margin-top: 40px;
-  padding: 20px 40px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 25px;
-  margin: 20px auto 0;
-  text-align: center;
-}
 
-.view-tour-button:hover {
-  background-color: darkgreen;
-} */
+@media (max-width: 350px) {
+  .accommodation-card {
+    width: 100%;
+    margin: 5px 0; 
+    height: 180px; 
+  }
+
+  .accommodations-container h2 {
+    font-size: 1em;
+    margin-left: 5px;
+  }
+
+  .accommodation-card .description h3 {
+    font-size: 0.7rem; 
+  }
+
+  .accommodation-card .description p {
+    font-size: 0.5rem; 
+  }
+}
